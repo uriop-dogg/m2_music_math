@@ -1,0 +1,1202 @@
+{
+  "C4Hz": 261.6255653005986,
+  "G3Hz": 196.21917397544897,
+  "oscillator": "sine",
+  "voicingRatios": [
+    1,
+    1.5,
+    1.25,
+    1.75,
+    2.25
+  ],
+  "files": {
+    "h-major": {
+      "description": "h-major 上行・最後は上のC",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0.0,
+          "duration": 0.42,
+          "frequenciesHz": [
+            261.6255653005986
+          ]
+        },
+        {
+          "start": 0.48,
+          "duration": 0.42,
+          "frequenciesHz": [
+            294.32876096317347
+          ]
+        },
+        {
+          "start": 0.96,
+          "duration": 0.42,
+          "frequenciesHz": [
+            327.0319566257483
+          ]
+        },
+        {
+          "start": 1.44,
+          "duration": 0.42,
+          "frequenciesHz": [
+            343.3835544570357
+          ]
+        },
+        {
+          "start": 1.92,
+          "duration": 0.42,
+          "frequenciesHz": [
+            392.43834795089793
+          ]
+        },
+        {
+          "start": 2.4,
+          "duration": 0.42,
+          "frequenciesHz": [
+            441.49314144476017
+          ]
+        },
+        {
+          "start": 2.88,
+          "duration": 0.42,
+          "frequenciesHz": [
+            490.5479349386224
+          ]
+        },
+        {
+          "start": 3.36,
+          "duration": 0.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ]
+        }
+      ]
+    },
+    "ji-major": {
+      "description": "ji-major 上行・最後は上のC",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0.0,
+          "duration": 0.42,
+          "frequenciesHz": [
+            261.6255653005986
+          ]
+        },
+        {
+          "start": 0.48,
+          "duration": 0.42,
+          "frequenciesHz": [
+            294.32876096317347
+          ]
+        },
+        {
+          "start": 0.96,
+          "duration": 0.42,
+          "frequenciesHz": [
+            327.0319566257483
+          ]
+        },
+        {
+          "start": 1.44,
+          "duration": 0.42,
+          "frequenciesHz": [
+            348.8340870674648
+          ]
+        },
+        {
+          "start": 1.92,
+          "duration": 0.42,
+          "frequenciesHz": [
+            392.43834795089793
+          ]
+        },
+        {
+          "start": 2.4,
+          "duration": 0.42,
+          "frequenciesHz": [
+            436.0426088343311
+          ]
+        },
+        {
+          "start": 2.88,
+          "duration": 0.42,
+          "frequenciesHz": [
+            490.5479349386224
+          ]
+        },
+        {
+          "start": 3.36,
+          "duration": 0.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ]
+        }
+      ]
+    },
+    "12et": {
+      "description": "12et 上行・最後は上のC",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0.0,
+          "duration": 0.42,
+          "frequenciesHz": [
+            261.6255653005986
+          ]
+        },
+        {
+          "start": 0.48,
+          "duration": 0.42,
+          "frequenciesHz": [
+            293.6647679174076
+          ]
+        },
+        {
+          "start": 0.96,
+          "duration": 0.42,
+          "frequenciesHz": [
+            329.6275569128699
+          ]
+        },
+        {
+          "start": 1.44,
+          "duration": 0.42,
+          "frequenciesHz": [
+            349.2282314330039
+          ]
+        },
+        {
+          "start": 1.92,
+          "duration": 0.42,
+          "frequenciesHz": [
+            391.99543598174927
+          ]
+        },
+        {
+          "start": 2.4,
+          "duration": 0.42,
+          "frequenciesHz": [
+            439.99999999999994
+          ]
+        },
+        {
+          "start": 2.88,
+          "duration": 0.42,
+          "frequenciesHz": [
+            493.88330125612407
+          ]
+        },
+        {
+          "start": 3.36,
+          "duration": 0.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ]
+        }
+      ]
+    },
+    "h-major-7": {
+      "description": "h-major-7 上行・最後は上のC",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0.0,
+          "duration": 0.42,
+          "frequenciesHz": [
+            261.6255653005986
+          ]
+        },
+        {
+          "start": 0.48,
+          "duration": 0.42,
+          "frequenciesHz": [
+            294.32876096317347
+          ]
+        },
+        {
+          "start": 0.96,
+          "duration": 0.42,
+          "frequenciesHz": [
+            327.0319566257483
+          ]
+        },
+        {
+          "start": 1.44,
+          "duration": 0.42,
+          "frequenciesHz": [
+            343.3835544570357
+          ]
+        },
+        {
+          "start": 1.92,
+          "duration": 0.42,
+          "frequenciesHz": [
+            392.43834795089793
+          ]
+        },
+        {
+          "start": 2.4,
+          "duration": 0.42,
+          "frequenciesHz": [
+            441.49314144476017
+          ]
+        },
+        {
+          "start": 2.88,
+          "duration": 0.42,
+          "frequenciesHz": [
+            457.84473927604756
+          ]
+        },
+        {
+          "start": 3.36,
+          "duration": 0.42,
+          "frequenciesHz": [
+            490.5479349386224
+          ]
+        },
+        {
+          "start": 3.84,
+          "duration": 0.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ]
+        }
+      ]
+    },
+    "all-odds": {
+      "description": "all-odds 上行・最後は上のC",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0.0,
+          "duration": 0.42,
+          "frequenciesHz": [
+            261.6255653005986
+          ]
+        },
+        {
+          "start": 0.48,
+          "duration": 0.42,
+          "frequenciesHz": [
+            277.977163131886
+          ]
+        },
+        {
+          "start": 0.96,
+          "duration": 0.42,
+          "frequenciesHz": [
+            294.32876096317347
+          ]
+        },
+        {
+          "start": 1.44,
+          "duration": 0.42,
+          "frequenciesHz": [
+            310.68035879446086
+          ]
+        },
+        {
+          "start": 1.92,
+          "duration": 0.42,
+          "frequenciesHz": [
+            327.0319566257483
+          ]
+        },
+        {
+          "start": 2.4,
+          "duration": 0.42,
+          "frequenciesHz": [
+            343.3835544570357
+          ]
+        },
+        {
+          "start": 2.88,
+          "duration": 0.42,
+          "frequenciesHz": [
+            359.7351522883231
+          ]
+        },
+        {
+          "start": 3.36,
+          "duration": 0.42,
+          "frequenciesHz": [
+            376.08675011961054
+          ]
+        },
+        {
+          "start": 3.84,
+          "duration": 0.42,
+          "frequenciesHz": [
+            392.43834795089793
+          ]
+        },
+        {
+          "start": 4.32,
+          "duration": 0.42,
+          "frequenciesHz": [
+            408.7899457821853
+          ]
+        },
+        {
+          "start": 4.8,
+          "duration": 0.42,
+          "frequenciesHz": [
+            425.1415436134728
+          ]
+        },
+        {
+          "start": 5.279999999999999,
+          "duration": 0.42,
+          "frequenciesHz": [
+            441.49314144476017
+          ]
+        },
+        {
+          "start": 5.76,
+          "duration": 0.42,
+          "frequenciesHz": [
+            457.84473927604756
+          ]
+        },
+        {
+          "start": 6.24,
+          "duration": 0.42,
+          "frequenciesHz": [
+            490.5479349386224
+          ]
+        },
+        {
+          "start": 6.72,
+          "duration": 0.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ]
+        }
+      ]
+    },
+    "tone-one": {
+      "description": "C4 正弦波",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2,
+          "frequenciesHz": [
+            261.6255653005986
+          ]
+        }
+      ]
+    },
+    "tone-two": {
+      "description": "C4 × 5/4 正弦波",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2,
+          "frequenciesHz": [
+            327.0319566257483
+          ]
+        }
+      ]
+    },
+    "two-tones": {
+      "description": "2音のみ。差音成分は追加しない",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 3,
+          "frequenciesHz": [
+            261.6255653005986,
+            327.0319566257483
+          ]
+        }
+      ],
+      "playbackGainVsV8": 1.697056274847714
+    },
+    "difference-reference": {
+      "description": "差音の参照正弦波、通常単音の振幅の半分",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2,
+          "frequenciesHz": [
+            65.40639132514966
+          ],
+          "amplitude": 0.17
+        }
+      ]
+    },
+    "c-series": {
+      "description": "C系列 1,3,5,7はC4のオクターブ、9はD5",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2.5,
+          "frequenciesHz": [
+            261.6255653005986,
+            392.43834795089793,
+            327.0319566257483,
+            457.84473927604756,
+            588.6575219263469
+          ]
+        }
+      ],
+      "playbackGainVsV8": 2.6832815729997477
+    },
+    "g-series": {
+      "description": "G系列 1,3,5,7はG3のオクターブ、9はA4",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2.5,
+          "frequenciesHz": [
+            196.21917397544897,
+            294.32876096317347,
+            245.2739674693112,
+            343.3835544570357,
+            441.49314144476017
+          ]
+        }
+      ],
+      "playbackGainVsV8": 2.6832815729997477
+    },
+    "g-to-c": {
+      "description": "G系列 → C系列、無音の間隔なし・65msクロスフェード。各成分は正弦波",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2.2,
+          "frequenciesHz": [
+            196.21917397544897,
+            294.32876096317347,
+            245.2739674693112,
+            343.3835544570357,
+            441.49314144476017
+          ],
+          "amplitude": 0.18246314696398286,
+          "attackSeconds": 0.025,
+          "releaseSeconds": 0.065
+        },
+        {
+          "start": 2.135,
+          "duration": 2.8,
+          "frequenciesHz": [
+            261.6255653005986,
+            392.43834795089793,
+            327.0319566257483,
+            457.84473927604756,
+            588.6575219263469
+          ],
+          "amplitude": 0.18246314696398286,
+          "attackSeconds": 0.065,
+          "releaseSeconds": 0.065
+        }
+      ],
+      "playbackGainVsV8": 2.6832815729997477
+    },
+    "minor": {
+      "description": "短三和音",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2.5,
+          "frequenciesHz": [
+            261.6255653005986,
+            313.9506783607183,
+            392.43834795089793
+          ]
+        }
+      ],
+      "playbackGainVsV8": 2.0784609690826525
+    },
+    "minor-representatives": {
+      "description": "上側の音を基準とし、最初の2音を1オクターブ下げる",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2.5,
+          "frequenciesHz": [
+            130.8127826502993,
+            78.48766959017959,
+            392.43834795089793
+          ]
+        }
+      ],
+      "playbackGainVsV8": 2.0784609690826525
+    },
+    "h-major-drone": {
+      "description": "C3を持続しながら音階を上行",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 3.78,
+          "frequenciesHz": [
+            130.8127826502993
+          ],
+          "amplitude": 0.18
+        },
+        {
+          "start": 0.0,
+          "duration": 0.42,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 0.48,
+          "duration": 0.42,
+          "frequenciesHz": [
+            294.32876096317347
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 0.96,
+          "duration": 0.42,
+          "frequenciesHz": [
+            327.0319566257483
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 1.44,
+          "duration": 0.42,
+          "frequenciesHz": [
+            343.3835544570357
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 1.92,
+          "duration": 0.42,
+          "frequenciesHz": [
+            392.43834795089793
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 2.4,
+          "duration": 0.42,
+          "frequenciesHz": [
+            441.49314144476017
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 2.88,
+          "duration": 0.42,
+          "frequenciesHz": [
+            490.5479349386224
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 3.36,
+          "duration": 0.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ],
+          "amplitude": 0.34
+        }
+      ]
+    },
+    "ji-major-drone": {
+      "description": "C3を持続しながら音階を上行",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 3.78,
+          "frequenciesHz": [
+            130.8127826502993
+          ],
+          "amplitude": 0.18
+        },
+        {
+          "start": 0.0,
+          "duration": 0.42,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 0.48,
+          "duration": 0.42,
+          "frequenciesHz": [
+            294.32876096317347
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 0.96,
+          "duration": 0.42,
+          "frequenciesHz": [
+            327.0319566257483
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 1.44,
+          "duration": 0.42,
+          "frequenciesHz": [
+            348.8340870674648
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 1.92,
+          "duration": 0.42,
+          "frequenciesHz": [
+            392.43834795089793
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 2.4,
+          "duration": 0.42,
+          "frequenciesHz": [
+            436.0426088343311
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 2.88,
+          "duration": 0.42,
+          "frequenciesHz": [
+            490.5479349386224
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 3.36,
+          "duration": 0.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ],
+          "amplitude": 0.34
+        }
+      ]
+    },
+    "12et-drone": {
+      "description": "C3を持続しながら音階を上行",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 3.78,
+          "frequenciesHz": [
+            130.8127826502993
+          ],
+          "amplitude": 0.18
+        },
+        {
+          "start": 0.0,
+          "duration": 0.42,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 0.48,
+          "duration": 0.42,
+          "frequenciesHz": [
+            293.6647679174076
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 0.96,
+          "duration": 0.42,
+          "frequenciesHz": [
+            329.6275569128699
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 1.44,
+          "duration": 0.42,
+          "frequenciesHz": [
+            349.2282314330039
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 1.92,
+          "duration": 0.42,
+          "frequenciesHz": [
+            391.99543598174927
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 2.4,
+          "duration": 0.42,
+          "frequenciesHz": [
+            439.99999999999994
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 2.88,
+          "duration": 0.42,
+          "frequenciesHz": [
+            493.88330125612407
+          ],
+          "amplitude": 0.34
+        },
+        {
+          "start": 3.36,
+          "duration": 0.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ],
+          "amplitude": 0.34
+        }
+      ]
+    },
+    "harmonics-layered": {
+      "description": "C3を基準に、整数倍の高さのまま順に加えて持続：[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]（各音の振幅を以前の2倍に）",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0.0,
+          "duration": 3.9,
+          "frequenciesHz": [
+            130.8127826502993
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.16,
+          "duration": 3.7399999999999998,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.32,
+          "duration": 3.58,
+          "frequenciesHz": [
+            392.43834795089793
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.48,
+          "duration": 3.42,
+          "frequenciesHz": [
+            523.2511306011972
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.64,
+          "duration": 3.26,
+          "frequenciesHz": [
+            654.0639132514966
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.8,
+          "duration": 3.0999999999999996,
+          "frequenciesHz": [
+            784.8766959017959
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.96,
+          "duration": 2.94,
+          "frequenciesHz": [
+            915.6894785520951
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 1.12,
+          "duration": 2.78,
+          "frequenciesHz": [
+            1046.5022612023945
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 1.28,
+          "duration": 2.62,
+          "frequenciesHz": [
+            1177.3150438526939
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 1.44,
+          "duration": 2.46,
+          "frequenciesHz": [
+            1308.1278265029932
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 1.6,
+          "duration": 2.3,
+          "frequenciesHz": [
+            1438.9406091532924
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 1.76,
+          "duration": 2.1399999999999997,
+          "frequenciesHz": [
+            1569.7533918035917
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 1.92,
+          "duration": 1.98,
+          "frequenciesHz": [
+            1700.566174453891
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 2.08,
+          "duration": 1.8199999999999998,
+          "frequenciesHz": [
+            1831.3789571041902
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 2.24,
+          "duration": 1.6599999999999997,
+          "frequenciesHz": [
+            1962.1917397544896
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 2.4,
+          "duration": 1.5,
+          "frequenciesHz": [
+            2093.004522404789
+          ],
+          "amplitude": 0.07
+        }
+      ]
+    },
+    "odd-layered": {
+      "description": "C3を基準に、整数倍の高さのまま順に加えて持続：[1, 3, 5, 7, 9, 11, 13, 15]（各音の振幅を以前の2倍に）",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0.0,
+          "duration": 2.62,
+          "frequenciesHz": [
+            130.8127826502993
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.16,
+          "duration": 2.46,
+          "frequenciesHz": [
+            392.43834795089793
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.32,
+          "duration": 2.3000000000000003,
+          "frequenciesHz": [
+            654.0639132514966
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.48,
+          "duration": 2.14,
+          "frequenciesHz": [
+            915.6894785520951
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.64,
+          "duration": 1.98,
+          "frequenciesHz": [
+            1177.3150438526939
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.8,
+          "duration": 1.82,
+          "frequenciesHz": [
+            1438.9406091532924
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 0.96,
+          "duration": 1.6600000000000001,
+          "frequenciesHz": [
+            1700.566174453891
+          ],
+          "amplitude": 0.07
+        },
+        {
+          "start": 1.12,
+          "duration": 1.5,
+          "frequenciesHz": [
+            1962.1917397544896
+          ],
+          "amplitude": 0.07
+        }
+      ]
+    },
+    "odd-folded": {
+      "description": "根音C4を持続、ユニゾン1から奇数31の音名を1.4秒間隔・1.34秒発音。ページの再生はその後も継続。",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 22.34,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.18
+        },
+        {
+          "start": 0.0,
+          "duration": 1.34,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 1.4,
+          "duration": 1.34,
+          "frequenciesHz": [
+            392.43834795089793
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 2.8,
+          "duration": 1.34,
+          "frequenciesHz": [
+            327.0319566257483
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 4.199999999999999,
+          "duration": 1.34,
+          "frequenciesHz": [
+            457.84473927604756
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 5.6,
+          "duration": 1.34,
+          "frequenciesHz": [
+            294.32876096317347
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 7.0,
+          "duration": 1.34,
+          "frequenciesHz": [
+            359.7351522883231
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 8.399999999999999,
+          "duration": 1.34,
+          "frequenciesHz": [
+            425.1415436134728
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 9.799999999999999,
+          "duration": 1.34,
+          "frequenciesHz": [
+            490.5479349386224
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 11.2,
+          "duration": 1.34,
+          "frequenciesHz": [
+            277.977163131886
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 12.6,
+          "duration": 1.34,
+          "frequenciesHz": [
+            310.68035879446086
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 14.0,
+          "duration": 1.34,
+          "frequenciesHz": [
+            343.3835544570357
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 15.399999999999999,
+          "duration": 1.34,
+          "frequenciesHz": [
+            376.08675011961054
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 16.799999999999997,
+          "duration": 1.34,
+          "frequenciesHz": [
+            408.7899457821853
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 18.2,
+          "duration": 1.34,
+          "frequenciesHz": [
+            441.49314144476017
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 19.599999999999998,
+          "duration": 1.34,
+          "frequenciesHz": [
+            474.196337107335
+          ],
+          "amplitude": 0.25
+        },
+        {
+          "start": 21.0,
+          "duration": 1.34,
+          "frequenciesHz": [
+            506.89953276990985
+          ],
+          "amplitude": 0.25
+        }
+      ]
+    },
+    "return-5-4": {
+      "description": "本文の差音例の入力2音のみ",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2.4,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.2884995667241114
+        },
+        {
+          "start": 0,
+          "duration": 2.4,
+          "frequenciesHz": [
+            327.0319566257483
+          ],
+          "amplitude": 0.2884995667241114
+        }
+      ],
+      "playbackGainVsV8": 1.697056274847714
+    },
+    "return-5": {
+      "description": "本文の差音例の入力2音のみ",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2.4,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.2884995667241114
+        },
+        {
+          "start": 0,
+          "duration": 2.4,
+          "frequenciesHz": [
+            1308.1278265029932
+          ],
+          "amplitude": 0.2884995667241114
+        }
+      ],
+      "playbackGainVsV8": 1.697056274847714
+    },
+    "return-5-2": {
+      "description": "本文の差音例の入力2音のみ",
+      "sampleRate": 22050,
+      "events": [
+        {
+          "start": 0,
+          "duration": 2.4,
+          "frequenciesHz": [
+            261.6255653005986
+          ],
+          "amplitude": 0.2884995667241114
+        },
+        {
+          "start": 0,
+          "duration": 2.4,
+          "frequenciesHz": [
+            654.0639132514966
+          ],
+          "amplitude": 0.2884995667241114
+        }
+      ],
+      "playbackGainVsV8": 1.697056274847714
+    },
+    "difference-triangle": {
+      "description": "差音C2の三角波参照音。入力2音には混ぜない。",
+      "sampleRate": 22050,
+      "waveform": "triangle",
+      "events": [
+        {
+          "start": 0,
+          "duration": 2,
+          "frequenciesHz": [
+            65.40639132514966
+          ],
+          "amplitude": 0.17
+        }
+      ]
+    }
+  }
+}

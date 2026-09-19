@@ -1,0 +1,74 @@
+/* White paper, black typography, restrained hue accents, gently floating ratios. */
+:root{--ink:#19191d;--muted:#414149;--red:#ba456f;--blue:#326e9b;--line:#ddddE3}
+body{background:#f7f7f9;color:#19191d;font-weight:400}
+.music-background{background:#fafafa}.music-background svg{opacity:.10}.music-background path{stroke-width:1.5}.music-background span{opacity:.10;font-size:58px}
+.site-header{background:#fff;border-bottom:1px solid #ddd;color:#19191d}.brand{color:#17171b;font-size:25px}.edition{color:#555}
+.layout{max-width:1240px;grid-template-columns:130px minmax(0,940px);gap:30px}main{background:#fffffff5;padding:0 40px;box-shadow:none}
+.toc{background:none;padding:0;margin-top:65px;border-radius:0}.toc summary,.toc a{color:#33333b}.toc a span{color:#716b7a}.toc a:hover{color:#8d3864}
+.article-title{background:none;color:#19191d;border-bottom:1px solid #aaa;margin:0;padding:56px 0 45px}.article-title h1{color:#17171b}.article-title .eyebrow,.article-title .intro,.byline span{color:#494953}
+.chapter-heading{border:0;padding:0}.chapter-heading>span{color:#9b4272}.chapter-heading h2{color:#19191d}.prose{color:#19191d}.small,small{color:#44444d}
+.statement{background:#faf9fc;border:1px solid #d3cbd9;border-radius:8px;padding:20px}.statement .principle{color:#22212a;background:none;border:0}
+button{background:white;color:#25242c;border:1px solid #bfc0c9;border-radius:6px;box-shadow:none;padding:9px 14px;font-weight:500}
+button:hover{background:#f5f0f7;border-color:#a484af;color:#25242c;box-shadow:none}button:active{transform:none}
+button.playing,button[aria-pressed=true]{background:#f2eaf5;color:#762f70;border-color:#b07aaf;box-shadow:none}button:focus-visible{outline:2px solid #376f9d;outline-offset:4px}
+.display-equation{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;background:none;border:0;border-radius:0;box-shadow:none;padding:22px 0;margin:28px 0;overflow:visible}
+.equation-scroll{width:100%;max-width:100%;overflow-x:auto;padding:10px 0}.equation-centered{display:flex;align-items:center;justify-content:center;width:100%;min-width:max-content}
+.equation-centered>math{display:inline-block!important;width:max-content!important;min-width:0!important;margin:0!important;text-align:center!important;font-size:1.4em;math-style:normal;color:#1b1a20}
+.display-equation button{margin:0}.equation-condition{text-align:center;color:#42424c;font-size:15px}.math-label,.ratio-tip{text-align:center;color:#50505a;font-size:14px}
+.ratio-sequence{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:16px;width:100%;padding:9px 0}
+.ratio-gem{position:relative;display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;background:#fff;color:#22212a!important;border:1px solid #e2dce7;border-radius:9px;box-shadow:0 7px 15px #34304312;padding:9px 13px;margin:3px 4px;min-width:42px;cursor:pointer;animation:ratio-float 4.8s ease-in-out infinite;will-change:transform}
+.ratio-gem:nth-child(3n+2){animation-delay:-1.6s;border-color:#d0e0ea}.ratio-gem:nth-child(3n){animation-delay:-3.2s;border-color:#e9d5df}
+.ratio-gem math{color:inherit!important;pointer-events:none;font-size:1.14em}.ratio-gem:hover{background:#faf6fb;border-color:#a879aa;box-shadow:0 9px 20px #34304320}.ratio-gem.playing{background:#f3eaf6;border-color:#b786bf;color:#6b346a!important}
+.ratio-sequence .ratio-gem{min-width:55px;min-height:68px;font-size:23px}.prose .ratio-gem{font-size:.96em;padding:2px 8px;margin:1px 3px;border-color:transparent;box-shadow:0 4px 9px #34304312}
+@keyframes ratio-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.note-ratio-table{padding:9px 0 15px}.note-ratio-table table{background:white}.note-ratio-table thead{background:#f5f5f7;color:#25242b}.note-ratio-table th,.note-ratio-table td{color:#25242b;text-align:center}.note-ratio-table td{padding:17px 8px}.note-ratio-table .ratio-gem{min-height:50px}
+.waveform{background:#fbfbfd;border:1px solid #dddce5;border-radius:7px;padding:8px 12px;margin:14px 0 25px;box-shadow:none}.waveform svg{height:125px}.wave-grid{stroke:#e1e0e8;stroke-width:1}.wave-trace{stroke:#4b6987;stroke-width:1.8}.waveform.is-playing{border-color:#c2b0cd}.waveform.is-playing .wave-trace{stroke:#855786}.waveform figcaption{color:#484651;font-size:12px}.waveform .wave-state{color:#292833}
+.instrument{background:#fcfcfd;color:#22222a;padding:24px;border:1px solid #cccbd4;border-radius:12px;box-shadow:none;margin:30px 0}.instrument.armed,.instrument:focus-within{border:1px solid #7a6692;outline:2px solid #e4dce9;outline-offset:3px}.instrument h3{font-size:23px}.instrument p,.instrument .small,.instrument label,.instrument caption{color:#38363f}.instrument .c-color,.instrument .legend .c-color{color:#b33b60}.instrument .g-color,.instrument .legend .g-color{color:#246e9b}.instrument td,.instrument th{color:#28262e;border-color:#dedce3}
+#keyboard-hint{font-size:14px;line-height:1.8}.drone-controls{display:flex;gap:14px;flex-wrap:wrap}.drone-controls label{background:#f2f1f5;border-radius:6px;padding:8px 12px;color:#302d39}.drone-controls input{accent-color:#77618e}
+.instrument button{background:white;color:#28242f;border-color:#bfc0c9;box-shadow:none}.instrument button.playing{background:#ede8f2;color:#5b386e;border-color:#ac91b7}
+.series-notes{display:flex;gap:7px;align-items:stretch;margin:22px 0}.instrument .note-chip{flex:1;min-width:0;position:relative;background:white;color:#25212d;font-size:24px;border:1px solid #d8d6df;border-radius:8px;box-shadow:0 4px 8px #33303d0c;padding:10px 2px;line-height:1.35;cursor:pointer}
+.note-chip strong{display:block}.note-chip kbd{display:block;font:500 12px 'Meiryo',sans-serif;color:#55515f;margin-bottom:7px}.note-chip small{font-size:12px;color:#55515f}.instrument .note-chip.c{border-top:3px solid #be5777;background:#fff9fb;color:#44303c}.instrument .note-chip.g{border-bottom:3px solid #4c8bac;background:#f8fcff;color:#2e3b49}.instrument .note-chip.c.g{border-top:3px solid #be5777;border-bottom:3px solid #4c8bac;background:white;color:#34303c}
+.note-chip::before,.note-chip::after{display:none}.instrument .note-chip.sounding{background:#e8e0ef;border-color:#8e729e;color:#362841;transform:translateY(2px);box-shadow:none}.instrument .waveform{background:#fbfbfd;box-shadow:none}
+.audio-bar{background:#25252bf5;color:white}.audio-bar button{background:#fff;color:#222;border:0;box-shadow:none}.audio-bar label{color:white}.audio-bar input{accent-color:#b69fc3}
+@media(max-width:1050px){.layout{grid-template-columns:110px minmax(0,1fr);gap:20px}main{padding:0 25px}.instrument{padding:20px}}
+@media(max-width:720px){.layout{display:block;padding:0 12px}main{padding:0 16px}.toc{padding:8px 10px;margin:15px 0;background:#ffffffed}.article-title{padding:28px 0}.site-header .brand{font-size:21px}.instrument{padding:16px 10px}.series-notes{gap:4px}.instrument .note-chip{font-size:17px;padding:8px 1px}.equation-centered>math{font-size:1.15em}.ratio-sequence{gap:10px}.ratio-sequence .ratio-gem{font-size:20px;min-width:44px;min-height:60px}.waveform svg{height:110px}}
+@media(prefers-reduced-motion:reduce){.ratio-gem{animation:none;will-change:auto}}
+
+/* v8: darker type, one compact global audio window, no bottom playback bar. */
+:root{--ink:#09090c;--muted:#25252c}
+body{color:#09090c;font-weight:500}.prose,.chapter-heading h2,.article-title h1,.brand{color:#09090c}
+.small,small,.intro,.byline span,.toc a,.toc summary,.audio-note,.equation-condition,.ratio-tip,.math-label,.waveform figcaption{color:#29292f}
+.note-ratio-table th,.note-ratio-table td,.statement,.statement .principle,math,.equation-centered>math{color:#111116}
+.ratio-gem{color:#111116!important}.note-chip kbd,.note-chip small{color:#28232e}.instrument p,.instrument label,.instrument .small,.instrument caption{color:#25212c}
+.audio-dock{position:fixed;right:14px;top:12px;z-index:40;width:242px;background:#fffffff5;border:1px solid #ceccd3;border-radius:11px;padding:8px;box-shadow:0 4px 18px #0000000b}
+.dock-top{display:flex;align-items:center;gap:6px}#volume-toggle{flex:0 0 34px;padding:6px;border:0;box-shadow:none;background:transparent;border-radius:6px}#volume-toggle:hover{background:#eeeaf2}#volume-toggle svg{width:24px;height:24px;fill:none;stroke:#17141c;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+#site-waveform{flex:1;min-width:0;margin:0;padding:0;border:0;background:transparent;box-shadow:none}#site-waveform svg{height:42px;width:100%}#site-waveform figcaption{display:block;font-size:11px;line-height:1.5;color:#24202a}#site-waveform .wave-state{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#site-waveform .wave-scale{display:block;font-size:10px}
+#volume-panel{padding:10px 7px 5px;border-top:1px solid #e0dde5;margin-top:8px}#volume-panel[hidden]{display:none!important}#volume-panel label{display:flex;justify-content:space-between;font-size:14px;margin:0 0 7px}#volume{width:100%;accent-color:#756184}#enable-audio{font-size:13px;padding:6px 10px;margin-top:8px}#enable-audio[hidden]{display:none!important}#audio-status{font-size:12px;line-height:1.6;margin:8px 0 0;color:#24212a}
+.instrument .note-chip.latched{background:#e4ddec;border-color:#806590;box-shadow:inset 0 -4px 0 #897097}.instrument .note-chip.latched kbd{font-weight:800}
+footer{padding-bottom:50px}.site-header{padding-right:280px}
+@media(min-width:1250px){.layout{width:calc(100% - 285px);margin-left:30px;margin-right:255px;max-width:1240px}}
+@media(max-width:1249px){.audio-dock{width:215px}#site-waveform svg{height:34px}.site-header{min-height:120px;align-items:flex-start;padding-right:245px}.edition{display:none}}
+@media(max-width:720px){.audio-dock{right:8px;top:8px;width:194px;padding:6px}.site-header{padding-right:215px;min-height:110px}.site-header .brand{font-size:18px;line-height:1.6}.brand span{display:none}#site-waveform .wave-scale{font-size:10px}#site-waveform figcaption{font-size:10px}.layout{width:auto;margin:0;padding:0 12px}}
+
+.ratio-gem:hover,.ratio-gem:focus-visible{animation-play-state:paused}
+
+/* v9: series membership is visible in the filled pads. */
+.instrument .note-chip.c{background:#ba456f;color:white;border:1px solid #9b365b}
+.instrument .note-chip.g{background:#326e9b;color:white;border:1px solid #285a80}
+.instrument .note-chip.c.g{background:linear-gradient(135deg,#ba456f 0%,#ba456f 50%,#326e9b 50%,#326e9b 100%);color:white;border:1px solid #6e507d}
+.instrument .note-chip kbd,.instrument .note-chip small{color:white}
+.instrument .note-chip.sounding{filter:brightness(1.17);outline:2px solid #222;outline-offset:2px}
+.instrument .note-chip.latched{box-shadow:inset 0 -4px 0 #ffffffb0}
+.table-audio{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap;margin:15px 0 5px}
+#pitch-circle{touch-action:none;cursor:grab}#pitch-circle.dragging{cursor:grabbing}
+#pitch-circle:focus-visible{outline:2px solid #326e9b;outline-offset:3px}
+
+/* A quiet listening suggestion beneath the opening H-Major ratios. */
+#s0 .hm-listening-note{font-size:13px;line-height:2.1;color:#666;margin:-12px 0 24px;text-align:center;font-weight:400}
+.hm-listening-note .listening-ratios{display:inline-flex;align-items:center;gap:.2em;white-space:nowrap;vertical-align:middle}
+#s0 .hm-listening-note math{font-size:1em;color:inherit;display:inline-block}
+.hm-listening-note .ratio-hyphen{font-family:inherit;color:inherit}
+
+.table-audio .octave-listening-note{flex-basis:100%;text-align:center;font-size:12px;color:#666;font-weight:400}
+
+.language-links{font-size:14px;margin:18px 0;color:#444}.language-links a{color:#326e9b}.inline-listen{margin:16px 0}
