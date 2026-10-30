@@ -1,0 +1,1067 @@
+[
+  {
+    "id": "0",
+    "html": "<p class=\"prose lead\">Woolyです。<br>今回は前回の音律の話(<a href=\"https://uriop-dogg.github.io/m2_music_math/M2-v10.2-JA-EN/index.html\">Harmonics Major</a>)とは変わって、音の倍音的な関係（調波関係）についての評価を実際の音声データに対して行う方法についての研究報告で、形式ばっていない研究ノートのような記事です。</p>",
+    "inner": "Woolyです。<br>今回は前回の音律の話(<a href=\"https://uriop-dogg.github.io/m2_music_math/M2-v10.2-JA-EN/index.html\">Harmonics Major</a>)とは変わって、音の倍音的な関係（調波関係）についての評価を実際の音声データに対して行う方法についての研究報告で、形式ばっていない研究ノートのような記事です。",
+    "tokens": [
+      "<a href=\"https://uriop-dogg.github.io/m2_music_math/M2-v10.2-JA-EN/index.html\">Harmonics Major</a>"
+    ],
+    "text": "Woolyです。<br>今回は前回の音律の話({0})とは変わって、音の倍音的な関係（調波関係）についての評価を実際の音声データに対して行う方法についての研究報告で、形式ばっていない研究ノートのような記事です。"
+  },
+  {
+    "id": "1",
+    "html": "<p class=\"prose lead\">数学は使いますが、原理・原則の話というよりは、計算の話です。</p>",
+    "inner": "数学は使いますが、原理・原則の話というよりは、計算の話です。",
+    "tokens": [],
+    "text": "数学は使いますが、原理・原則の話というよりは、計算の話です。"
+  },
+  {
+    "id": "2",
+    "html": "<p class=\"prose lead\">これは私自身もまだ整理を続けている内容で、私はこの&quot;<strong class=\"first-term\">調波極性</strong>&quot;をある種の人の音の聞こえ方の数学的な表現に使えるのではないかと思っています。ただし実際の音楽理論とのつながりなど、まだ全容が分かっているわけではありません。あくまで1つの計算法を提案するという形になります。</p>",
+    "inner": "これは私自身もまだ整理を続けている内容で、私はこの&quot;<strong class=\"first-term\">調波極性</strong>&quot;をある種の人の音の聞こえ方の数学的な表現に使えるのではないかと思っています。ただし実際の音楽理論とのつながりなど、まだ全容が分かっているわけではありません。あくまで1つの計算法を提案するという形になります。",
+    "tokens": [
+      "<strong class=\"first-term\">調波極性</strong>"
+    ],
+    "text": "これは私自身もまだ整理を続けている内容で、私はこの&quot;{0}&quot;をある種の人の音の聞こえ方の数学的な表現に使えるのではないかと思っています。ただし実際の音楽理論とのつながりなど、まだ全容が分かっているわけではありません。あくまで1つの計算法を提案するという形になります。"
+  },
+  {
+    "id": "3",
+    "html": "<p class=\"prose lead\">ですが、もし私の方法を面白いと思って自分で計算して使い始めて音楽の研究に活用してくれる方がいらっしゃればと思って今回は公開しました。</p>",
+    "inner": "ですが、もし私の方法を面白いと思って自分で計算して使い始めて音楽の研究に活用してくれる方がいらっしゃればと思って今回は公開しました。",
+    "tokens": [],
+    "text": "ですが、もし私の方法を面白いと思って自分で計算して使い始めて音楽の研究に活用してくれる方がいらっしゃればと思って今回は公開しました。"
+  },
+  {
+    "id": "4",
+    "html": "<p class=\"prose lead\">数式が分からない方でも倍音的な関係に興味がある方など、最初の方だけでも読んでいただければと思います。🙇</p>",
+    "inner": "数式が分からない方でも倍音的な関係に興味がある方など、最初の方だけでも読んでいただければと思います。🙇",
+    "tokens": [],
+    "text": "数式が分からない方でも倍音的な関係に興味がある方など、最初の方だけでも読んでいただければと思います。🙇"
+  },
+  {
+    "id": "5",
+    "html": "<p class=\"prose lead\">最初は音の+, -の関数としての&quot;調波極性&quot;についての話で、複素数への拡張の話は後半にあります。また、ページの最後にこの記事で紹介した関数を実際に計算できるウェブアプリへのリンクを貼っているので、ぜひご利用ください。</p>",
+    "inner": "最初は音の+, -の関数としての&quot;調波極性&quot;についての話で、複素数への拡張の話は後半にあります。また、ページの最後にこの記事で紹介した関数を実際に計算できるウェブアプリへのリンクを貼っているので、ぜひご利用ください。",
+    "tokens": [],
+    "text": "最初は音の+, -の関数としての&quot;調波極性&quot;についての話で、複素数への拡張の話は後半にあります。また、ページの最後にこの記事で紹介した関数を実際に計算できるウェブアプリへのリンクを貼っているので、ぜひご利用ください。"
+  },
+  {
+    "id": "6",
+    "html": "<p class=\"prose\" data-source-paragraph=\"3\">複数の周波数が存在し、特にそれが倍音列に整列している場合にそれらが統合され、1つのピッチとして基本周波数の音高で知覚される現象は<strong>調波融合(Harmonic Fusion)</strong>と呼ばれているらしい。</p>",
+    "inner": "複数の周波数が存在し、特にそれが倍音列に整列している場合にそれらが統合され、1つのピッチとして基本周波数の音高で知覚される現象は<strong>調波融合(Harmonic Fusion)</strong>と呼ばれているらしい。",
+    "tokens": [
+      "<strong>調波融合(Harmonic Fusion)</strong>"
+    ],
+    "text": "複数の周波数が存在し、特にそれが倍音列に整列している場合にそれらが統合され、1つのピッチとして基本周波数の音高で知覚される現象は{0}と呼ばれているらしい。"
+  },
+  {
+    "id": "7",
+    "html": "<p class=\"prose\" data-source-paragraph=\"4\">実際は複数の音の高さの正弦波が同時に鳴っているとみなせる場合でも、それが基本周波数の音の高さで聞こえて、かつ、”音色が違う”という言葉で表現されるような差異を持って認識されるのだ。</p>",
+    "inner": "実際は複数の音の高さの正弦波が同時に鳴っているとみなせる場合でも、それが基本周波数の音の高さで聞こえて、かつ、”音色が違う”という言葉で表現されるような差異を持って認識されるのだ。",
+    "tokens": [],
+    "text": "実際は複数の音の高さの正弦波が同時に鳴っているとみなせる場合でも、それが基本周波数の音の高さで聞こえて、かつ、”音色が違う”という言葉で表現されるような差異を持って認識されるのだ。"
+  },
+  {
+    "id": "8",
+    "html": "<p class=\"prose\" data-source-paragraph=\"5\">私はこれが音色の仕組みだけでなく、一般の音楽現象との関連があるのではないかと考えている。音楽における”調”には主音や中心的な音の概念があるし、コード理論においても機能の考え方がある（機能はキーによって相対的に変わるので、調性的な概念だ。）それらはもしかすると、調波融合のような複数の周波数を統合する知覚作用との関係があるのでは？</p>",
+    "inner": "私はこれが音色の仕組みだけでなく、一般の音楽現象との関連があるのではないかと考えている。音楽における”調”には主音や中心的な音の概念があるし、コード理論においても機能の考え方がある（機能はキーによって相対的に変わるので、調性的な概念だ。）それらはもしかすると、調波融合のような複数の周波数を統合する知覚作用との関係があるのでは？",
+    "tokens": [],
+    "text": "私はこれが音色の仕組みだけでなく、一般の音楽現象との関連があるのではないかと考えている。音楽における”調”には主音や中心的な音の概念があるし、コード理論においても機能の考え方がある（機能はキーによって相対的に変わるので、調性的な概念だ。）それらはもしかすると、調波融合のような複数の周波数を統合する知覚作用との関係があるのでは？"
+  },
+  {
+    "id": "9",
+    "html": "<p class=\"prose\" data-source-paragraph=\"6\">そこでまず、こういうことを考えた：ある周波数スペクトルが与えられたときに、その各周波数で”どれくらいの調波融合が起こっているか”のような量を計算し、調波融合の度合いの周波数のスペクトルを計算することはできるだろうか。</p>",
+    "inner": "そこでまず、こういうことを考えた：ある周波数スペクトルが与えられたときに、その各周波数で”どれくらいの調波融合が起こっているか”のような量を計算し、調波融合の度合いの周波数のスペクトルを計算することはできるだろうか。",
+    "tokens": [],
+    "text": "そこでまず、こういうことを考えた：ある周波数スペクトルが与えられたときに、その各周波数で”どれくらいの調波融合が起こっているか”のような量を計算し、調波融合の度合いの周波数のスペクトルを計算することはできるだろうか。"
+  },
+  {
+    "id": "10",
+    "html": "<p class=\"prose\" data-source-paragraph=\"8\">周波数スペクトルについてその実数の強度の関数を<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>とする。私は主に音声波形のフーリエ変換の、振幅の絶対値の2乗の形を利用している。</p>",
+    "inner": "周波数スペクトルについてその実数の強度の関数を<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>とする。私は主に音声波形のフーリエ変換の、振幅の絶対値の2乗の形を利用している。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "周波数スペクトルについてその実数の強度の関数を{0}とする。私は主に音声波形のフーリエ変換の、振幅の絶対値の2乗の形を利用している。"
+  },
+  {
+    "id": "11",
+    "html": "<p class=\"prose\" data-source-paragraph=\"9\">ここで調波融合のモデルを考えると</p>",
+    "inner": "ここで調波融合のモデルを考えると",
+    "tokens": [],
+    "text": "ここで調波融合のモデルを考えると"
+  },
+  {
+    "id": "12",
+    "html": "<p>ある周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に対して、その倍音が存在するときに<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に正の寄与を与える</p>",
+    "inner": "ある周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に対して、その倍音が存在するときに<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に正の寄与を与える",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>"
+    ],
+    "text": "ある周波数{0}に対して、その倍音が存在するときに{1}に正の寄与を与える"
+  },
+  {
+    "id": "13",
+    "html": "<p class=\"prose\" data-source-paragraph=\"11\">というものを考えるのは自然だろう。</p>",
+    "inner": "というものを考えるのは自然だろう。",
+    "tokens": [],
+    "text": "というものを考えるのは自然だろう。"
+  },
+  {
+    "id": "14",
+    "html": "<p class=\"prose\" data-source-paragraph=\"12\">しかし私はさらに逆の関係についても評価を加えたいと思う。それは</p>",
+    "inner": "しかし私はさらに逆の関係についても評価を加えたいと思う。それは",
+    "tokens": [],
+    "text": "しかし私はさらに逆の関係についても評価を加えたいと思う。それは"
+  },
+  {
+    "id": "15",
+    "html": "<p>ある周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に対して、その下方倍音が存在するときに<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に負の寄与を与える</p>",
+    "inner": "ある周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に対して、その下方倍音が存在するときに<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に負の寄与を与える",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>"
+    ],
+    "text": "ある周波数{0}に対して、その下方倍音が存在するときに{1}に負の寄与を与える"
+  },
+  {
+    "id": "16",
+    "html": "<p class=\"prose\" data-source-paragraph=\"14\">というものだ。倍音が<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>の<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n\"><mrow><mi>n</mi></mrow></math>倍であるのに対し、下方倍音と呼ばれているものは、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>の<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>倍に相当する。これは実際前者の逆の場合になっていて、このとき周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>は下方倍音<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>にたいして</p>",
+    "inner": "というものだ。倍音が<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>の<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n\"><mrow><mi>n</mi></mrow></math>倍であるのに対し、下方倍音と呼ばれているものは、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>の<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>倍に相当する。これは実際前者の逆の場合になっていて、このとき周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>は下方倍音<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>にたいして",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n\"><mrow><mi>n</mi></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>"
+    ],
+    "text": "というものだ。倍音が{0}の{1}倍であるのに対し、下方倍音と呼ばれているものは、{2}の{3}倍に相当する。これは実際前者の逆の場合になっていて、このとき周波数{4}は下方倍音{5}にたいして"
+  },
+  {
+    "id": "17",
+    "html": "<p class=\"prose\" data-source-paragraph=\"16\">なので、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>は”<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>の”、第<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n\"><mrow><mi>n</mi></mrow></math>次倍音となっているのだ。こういう関係が存在するときは、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>の方が基本周波数としての評価が高いとし、それで<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>からは<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>が<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>の倍音となる分の評価を差し引くという設計だ。</p>",
+    "inner": "なので、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>は”<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>の”、第<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n\"><mrow><mi>n</mi></mrow></math>次倍音となっているのだ。こういう関係が存在するときは、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>の方が基本周波数としての評価が高いとし、それで<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>からは<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>が<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>の倍音となる分の評価を差し引くという設計だ。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n\"><mrow><mi>n</mi></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0/n\"><mrow><mfrac><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>"
+    ],
+    "text": "なので、{0}は”{1}の”、第{2}次倍音となっているのだ。こういう関係が存在するときは、{3}の方が基本周波数としての評価が高いとし、それで{4}からは{5}が{6}の倍音となる分の評価を差し引くという設計だ。"
+  },
+  {
+    "id": "18",
+    "html": "<p class=\"prose\" data-source-paragraph=\"17\">それで具体的には</p>",
+    "inner": "それで具体的には",
+    "tokens": [],
+    "text": "それで具体的には"
+  },
+  {
+    "id": "19",
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>に対して<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"nf\"><mrow><mi>n</mi><mi>f</mi></mrow></math>の位置に値が存在するとき、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"+w_n\"><mrow><mo>+</mo><msub><mi>w</mi><mi>n</mi></msub></mrow></math>の寄与</p>",
+    "inner": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>に対して<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"nf\"><mrow><mi>n</mi><mi>f</mi></mrow></math>の位置に値が存在するとき、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"+w_n\"><mrow><mo>+</mo><msub><mi>w</mi><mi>n</mi></msub></mrow></math>の寄与",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"nf\"><mrow><mi>n</mi><mi>f</mi></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"+w_n\"><mrow><mo>+</mo><msub><mi>w</mi><mi>n</mi></msub></mrow></math>"
+    ],
+    "text": "{0}に対して{1}の位置に値が存在するとき、{2}の寄与"
+  },
+  {
+    "id": "20",
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>に対して<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f/n\"><mrow><mfrac><mrow><mi>f</mi></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>の位置に値が存在するとき、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-w_n\"><mrow><mo>−</mo><msub><mi>w</mi><mi>n</mi></msub></mrow></math>の寄与</p>",
+    "inner": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>に対して<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f/n\"><mrow><mfrac><mrow><mi>f</mi></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>の位置に値が存在するとき、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-w_n\"><mrow><mo>−</mo><msub><mi>w</mi><mi>n</mi></msub></mrow></math>の寄与",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f/n\"><mrow><mfrac><mrow><mi>f</mi></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-w_n\"><mrow><mo>−</mo><msub><mi>w</mi><mi>n</mi></msub></mrow></math>"
+    ],
+    "text": "{0}に対して{1}の位置に値が存在するとき、{2}の寄与"
+  },
+  {
+    "id": "21",
+    "html": "<p class=\"prose\" data-source-paragraph=\"20\">として、</p>",
+    "inner": "として、",
+    "tokens": [],
+    "text": "として、"
+  },
+  {
+    "id": "22",
+    "html": "<p class=\"prose\" data-source-paragraph=\"22\">を”<strong class=\"first-term\">調波極性</strong>”と呼ぶことにする。理論的には<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"N=∞\"><mrow><mi>N</mi><mo>=</mo><mo>∞</mo></mrow></math>でもいい(収束する場合)、計算の際は有限で打ち切るので<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"N\"><mrow><mi>N</mi></mrow></math>にしている。</p>",
+    "inner": "を”<strong class=\"first-term\">調波極性</strong>”と呼ぶことにする。理論的には<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"N=∞\"><mrow><mi>N</mi><mo>=</mo><mo>∞</mo></mrow></math>でもいい(収束する場合)、計算の際は有限で打ち切るので<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"N\"><mrow><mi>N</mi></mrow></math>にしている。",
+    "tokens": [
+      "<strong class=\"first-term\">調波極性</strong>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"N=∞\"><mrow><mi>N</mi><mo>=</mo><mo>∞</mo></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"N\"><mrow><mi>N</mi></mrow></math>"
+    ],
+    "text": "を”{0}”と呼ぶことにする。理論的には{1}でもいい(収束する場合)、計算の際は有限で打ち切るので{2}にしている。"
+  },
+  {
+    "id": "23",
+    "html": "<p class=\"prose\" data-source-paragraph=\"23\">名前を”極性”としたのは、これがすべての周波数について、ある+や-の値を与える関数になっているからで：</p>",
+    "inner": "名前を”極性”としたのは、これがすべての周波数について、ある+や-の値を与える関数になっているからで：",
+    "tokens": [],
+    "text": "名前を”極性”としたのは、これがすべての周波数について、ある+や-の値を与える関数になっているからで："
+  },
+  {
+    "id": "24",
+    "html": "<p>正の値が大きいほど調波融合における基本周波数としての評価が高く、他の周波数を自身の倍音として取り込む性質を持つ周波数である。</p>",
+    "inner": "正の値が大きいほど調波融合における基本周波数としての評価が高く、他の周波数を自身の倍音として取り込む性質を持つ周波数である。",
+    "tokens": [],
+    "text": "正の値が大きいほど調波融合における基本周波数としての評価が高く、他の周波数を自身の倍音として取り込む性質を持つ周波数である。"
+  },
+  {
+    "id": "25",
+    "html": "<p>負の値が大きいほどそれは”倍音側”で、他の周波数に”取り込まれる”側の周波数である。</p>",
+    "inner": "負の値が大きいほどそれは”倍音側”で、他の周波数に”取り込まれる”側の周波数である。",
+    "tokens": [],
+    "text": "負の値が大きいほどそれは”倍音側”で、他の周波数に”取り込まれる”側の周波数である。"
+  },
+  {
+    "id": "26",
+    "html": "<p class=\"prose\" data-source-paragraph=\"26\">という捉え方ができる。私は周波数同士の”引力”をイメージする。なんだか、音のクーロンの法則みたいです。</p>",
+    "inner": "という捉え方ができる。私は周波数同士の”引力”をイメージする。なんだか、音のクーロンの法則みたいです。",
+    "tokens": [],
+    "text": "という捉え方ができる。私は周波数同士の”引力”をイメージする。なんだか、音のクーロンの法則みたいです。"
+  },
+  {
+    "id": "27",
+    "html": "<p class=\"prose\" data-source-paragraph=\"27\">調波融合においては高次倍音は減衰するのが普通である。そこで<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"w_n\"><mrow><msub><mi>w</mi><mi>n</mi></msub></mrow></math>には<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>や<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>などを用いる。私は主に<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>を利用している(すべての倍音を含む波形の代表としてノコギリ波を考えるとその振幅減衰は<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>です、それで<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>に2乗強度を使うのなら<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>を使うのが妥当だと思います)。</p>",
+    "inner": "調波融合においては高次倍音は減衰するのが普通である。そこで<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"w_n\"><mrow><msub><mi>w</mi><mi>n</mi></msub></mrow></math>には<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>や<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>などを用いる。私は主に<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>を利用している(すべての倍音を含む波形の代表としてノコギリ波を考えるとその振幅減衰は<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>です、それで<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>に2乗強度を使うのなら<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>を使うのが妥当だと思います)。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"w_n\"><mrow><msub><mi>w</mi><mi>n</mi></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/n\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/(n^2)\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mi>n</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>"
+    ],
+    "text": "調波融合においては高次倍音は減衰するのが普通である。そこで{0}には{1}や{2}などを用いる。私は主に{3}を利用している(すべての倍音を含む波形の代表としてノコギリ波を考えるとその振幅減衰は{4}です、それで{5}に2乗強度を使うのなら{6}を使うのが妥当だと思います)。"
+  },
+  {
+    "id": "28",
+    "html": "<p class=\"prose\" data-source-paragraph=\"29\">また今回の式は<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n=2\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math>からの和になっているので、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q\"><mrow><mi>Q</mi></mrow></math>には周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>自体が持つ周波数スペクトルでの値は加算されていない。純粋な他の音との関係性だけを評価する関数となっている。</p>",
+    "inner": "また今回の式は<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n=2\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math>からの和になっているので、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q\"><mrow><mi>Q</mi></mrow></math>には周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>自体が持つ周波数スペクトルでの値は加算されていない。純粋な他の音との関係性だけを評価する関数となっている。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n=2\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q\"><mrow><mi>Q</mi></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>"
+    ],
+    "text": "また今回の式は{0}からの和になっているので、{1}には周波数{2}自体が持つ周波数スペクトルでの値は加算されていない。純粋な他の音との関係性だけを評価する関数となっている。"
+  },
+  {
+    "id": "29",
+    "html": "<p class=\"prose\" data-source-paragraph=\"31\">またついでに、倍音・下方倍音側の和それぞれには</p>",
+    "inner": "またついでに、倍音・下方倍音側の和それぞれには",
+    "tokens": [],
+    "text": "またついでに、倍音・下方倍音側の和それぞれには"
+  },
+  {
+    "id": "30",
+    "html": "<p class=\"prose\" data-source-paragraph=\"34\">の記号を割り当てておく。倍音=Harmonicsからである。高調波とも呼ばれる。下方倍音はSubharmonics, 分調波とも呼ばれる。</p>",
+    "inner": "の記号を割り当てておく。倍音=Harmonicsからである。高調波とも呼ばれる。下方倍音はSubharmonics, 分調波とも呼ばれる。",
+    "tokens": [],
+    "text": "の記号を割り当てておく。倍音=Harmonicsからである。高調波とも呼ばれる。下方倍音はSubharmonics, 分調波とも呼ばれる。"
+  },
+  {
+    "id": "31",
+    "html": "<p class=\"prose\" data-source-paragraph=\"35\">この記号では、</p>",
+    "inner": "この記号では、",
+    "tokens": [],
+    "text": "この記号では、"
+  },
+  {
+    "id": "32",
+    "html": "<p class=\"prose\" data-source-paragraph=\"37\">と表せる。</p>",
+    "inner": "と表せる。",
+    "tokens": [],
+    "text": "と表せる。"
+  },
+  {
+    "id": "33",
+    "html": "<p class=\"prose\" data-source-paragraph=\"39\">バッハのC major Preludeのmidiを<a href=\"https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=5\">Mutopia</a>から取得し、正弦波で演奏した音源を作成した。</p>",
+    "inner": "バッハのC major Preludeのmidiを<a href=\"https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=5\">Mutopia</a>から取得し、正弦波で演奏した音源を作成した。",
+    "tokens": [
+      "<a href=\"https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=5\">Mutopia</a>"
+    ],
+    "text": "バッハのC major Preludeのmidiを{0}から取得し、正弦波で演奏した音源を作成した。"
+  },
+  {
+    "id": "34",
+    "html": "<p class=\"prose\" data-source-paragraph=\"39\">この音源のスペクトルはまず、</p>",
+    "inner": "この音源のスペクトルはまず、",
+    "tokens": [],
+    "text": "この音源のスペクトルはまず、"
+  },
+  {
+    "id": "35",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "36",
+    "html": "<p class=\"prose\" data-source-paragraph=\"41\">このようになっている。これが今回は音声のフーリエ変換の2乗振幅として選んだ<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>である(実際に音声に含まれていた音の周波数の分布)。今回は各時刻のSTFT(短時間フーリエ変換、瞬間的なスペクトルを求める方法)を時間全体で平均する方法で音声全体のスペクトルを計算している。周波数軸は対数になっていることに注意。</p>",
+    "inner": "このようになっている。これが今回は音声のフーリエ変換の2乗振幅として選んだ<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>である(実際に音声に含まれていた音の周波数の分布)。今回は各時刻のSTFT(短時間フーリエ変換、瞬間的なスペクトルを求める方法)を時間全体で平均する方法で音声全体のスペクトルを計算している。周波数軸は対数になっていることに注意。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "このようになっている。これが今回は音声のフーリエ変換の2乗振幅として選んだ{0}である(実際に音声に含まれていた音の周波数の分布)。今回は各時刻のSTFT(短時間フーリエ変換、瞬間的なスペクトルを求める方法)を時間全体で平均する方法で音声全体のスペクトルを計算している。周波数軸は対数になっていることに注意。"
+  },
+  {
+    "id": "37",
+    "html": "<p class=\"prose\" data-source-paragraph=\"42\">これの調波極性<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を計算すると、</p>",
+    "inner": "これの調波極性<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を計算すると、",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "これの調波極性{0}を計算すると、"
+  },
+  {
+    "id": "38",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "39",
+    "html": "<p class=\"prose\" data-source-paragraph=\"44\">こうなっている。元のスペクトルよりも広い音域に値が広がり、左側(低音域)は正の値が多く、右側(中音域～高音域)の方が負の値が多くなったのが分かるだろうか。これはこの<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q\"><mrow><mi>Q</mi></mrow></math>の計算そのものの性質で、他の音源でも基本的にはこうなる。</p>",
+    "inner": "こうなっている。元のスペクトルよりも広い音域に値が広がり、左側(低音域)は正の値が多く、右側(中音域～高音域)の方が負の値が多くなったのが分かるだろうか。これはこの<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q\"><mrow><mi>Q</mi></mrow></math>の計算そのものの性質で、他の音源でも基本的にはこうなる。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q\"><mrow><mi>Q</mi></mrow></math>"
+    ],
+    "text": "こうなっている。元のスペクトルよりも広い音域に値が広がり、左側(低音域)は正の値が多く、右側(中音域～高音域)の方が負の値が多くなったのが分かるだろうか。これはこの{0}の計算そのものの性質で、他の音源でも基本的にはこうなる。"
+  },
+  {
+    "id": "40",
+    "html": "<p class=\"prose\" data-source-paragraph=\"45\">単一の純音の場合を考えるとわかりやすい。周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に値<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"v\"><mrow><mi>v</mi></mrow></math>があるとき、</p>",
+    "inner": "単一の純音の場合を考えるとわかりやすい。周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>に値<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"v\"><mrow><mi>v</mi></mrow></math>があるとき、",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f_0\"><mrow><msub><mi>f</mi><mn>0</mn></msub></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"v\"><mrow><mi>v</mi></mrow></math>"
+    ],
+    "text": "単一の純音の場合を考えるとわかりやすい。周波数{0}に値{1}があるとき、"
+  },
+  {
+    "id": "41",
+    "html": "<p class=\"prose\" data-source-paragraph=\"48\">が成り立つため、各倍音次数でこれが起きて下のような調波極性のグラフとなる。</p>",
+    "inner": "が成り立つため、各倍音次数でこれが起きて下のような調波極性のグラフとなる。",
+    "tokens": [],
+    "text": "が成り立つため、各倍音次数でこれが起きて下のような調波極性のグラフとなる。"
+  },
+  {
+    "id": "42",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "43",
+    "html": "<p class=\"prose\" data-web-addition=\"single-tone-explanation\">このように、左側に正の値、右側に負の値が出現していくのだ。通常の音声でもこれが重なってあのようなグラフとなる。</p>",
+    "inner": "このように、左側に正の値、右側に負の値が出現していくのだ。通常の音声でもこれが重なってあのようなグラフとなる。",
+    "tokens": [],
+    "text": "このように、左側に正の値、右側に負の値が出現していくのだ。通常の音声でもこれが重なってあのようなグラフとなる。"
+  },
+  {
+    "id": "44",
+    "html": "<p class=\"prose\" data-source-paragraph=\"51\">先述の通り、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>自体には周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>自体の値が入っておらず、調波関係(倍音・下方倍音の存在)のみを評価した関数になっている。しかしそのためもあって、すでに見たように実際に周波数が存在しない領域にも値が広がっている。関係だけを見た仮想的な評価なのだ。ここで本当の意味での調波融合の評価のためには、基本周波数自体の強さも入れた方がいいだろう。そこで例えば</p>",
+    "inner": "先述の通り、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>自体には周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>自体の値が入っておらず、調波関係(倍音・下方倍音の存在)のみを評価した関数になっている。しかしそのためもあって、すでに見たように実際に周波数が存在しない領域にも値が広がっている。関係だけを見た仮想的な評価なのだ。ここで本当の意味での調波融合の評価のためには、基本周波数自体の強さも入れた方がいいだろう。そこで例えば",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>"
+    ],
+    "text": "先述の通り、{0}自体には周波数{1}自体の値が入っておらず、調波関係(倍音・下方倍音の存在)のみを評価した関数になっている。しかしそのためもあって、すでに見たように実際に周波数が存在しない領域にも値が広がっている。関係だけを見た仮想的な評価なのだ。ここで本当の意味での調波融合の評価のためには、基本周波数自体の強さも入れた方がいいだろう。そこで例えば"
+  },
+  {
+    "id": "45",
+    "html": "<p class=\"prose\" data-source-paragraph=\"53\">として</p>",
+    "inner": "として",
+    "tokens": [],
+    "text": "として"
+  },
+  {
+    "id": "46",
+    "html": "<p class=\"prose\" data-source-paragraph=\"55\">とすればよい(値のスケールを<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>とそろえるために正規化している)。これを今回は”<strong class=\"first-term\">調波融合評価</strong>”の関数と呼ぶ。これは先ほどの音源ではこういう風な分布になる。</p>",
+    "inner": "とすればよい(値のスケールを<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>とそろえるために正規化している)。これを今回は”<strong class=\"first-term\">調波融合評価</strong>”の関数と呼ぶ。これは先ほどの音源ではこういう風な分布になる。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>",
+      "<strong class=\"first-term\">調波融合評価</strong>"
+    ],
+    "text": "とすればよい(値のスケールを{0}とそろえるために正規化している)。これを今回は”{1}”の関数と呼ぶ。これは先ほどの音源ではこういう風な分布になる。"
+  },
+  {
+    "id": "47",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "48",
+    "html": "<p class=\"prose\" data-source-paragraph=\"57\">1つ注意してほしいのは、今回私がやっていることは普通の調波融合の評価とは違って、変なことをしている。調波融合の評価は、普通は例えば楽器の音色の基本周波数を推定するために行うものだ。</p>",
+    "inner": "1つ注意してほしいのは、今回私がやっていることは普通の調波融合の評価とは違って、変なことをしている。調波融合の評価は、普通は例えば楽器の音色の基本周波数を推定するために行うものだ。",
+    "tokens": [],
+    "text": "1つ注意してほしいのは、今回私がやっていることは普通の調波融合の評価とは違って、変なことをしている。調波融合の評価は、普通は例えば楽器の音色の基本周波数を推定するために行うものだ。"
+  },
+  {
+    "id": "49",
+    "html": "<p class=\"prose\" data-source-paragraph=\"58\">しかし今回はそれを1つの楽曲の中で利用された音の集計としての意味の時間平均の周波数スペクトルに対して行い、その音の集合の上で調波融合の関係を考えたときにどの周波数が基本周波数として評価できるのか、またその程度が各周波数によってどう変わるのかを見ているのだ。</p>",
+    "inner": "しかし今回はそれを1つの楽曲の中で利用された音の集計としての意味の時間平均の周波数スペクトルに対して行い、その音の集合の上で調波融合の関係を考えたときにどの周波数が基本周波数として評価できるのか、またその程度が各周波数によってどう変わるのかを見ているのだ。",
+    "tokens": [],
+    "text": "しかし今回はそれを1つの楽曲の中で利用された音の集計としての意味の時間平均の周波数スペクトルに対して行い、その音の集合の上で調波融合の関係を考えたときにどの周波数が基本周波数として評価できるのか、またその程度が各周波数によってどう変わるのかを見ているのだ。"
+  },
+  {
+    "id": "50",
+    "html": "<p class=\"prose\" data-source-paragraph=\"59\">そういう特徴の観察だと理解した上で、今回の解析条件では、この曲で<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>の値が最も大きいのは<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f ≈ 48.83 Hz\"><mrow><mi>f</mi><mo>≈</mo><mn>48.83</mn><mspace width=\"0.2em\"/><mtext>Hz</mtext></mrow></math>のようだ。音楽的な音名としてはG（G1付近）に対応している。</p>",
+    "inner": "そういう特徴の観察だと理解した上で、今回の解析条件では、この曲で<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>の値が最も大きいのは<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f ≈ 48.83 Hz\"><mrow><mi>f</mi><mo>≈</mo><mn>48.83</mn><mspace width=\"0.2em\"/><mtext>Hz</mtext></mrow></math>のようだ。音楽的な音名としてはG（G1付近）に対応している。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f ≈ 48.83 Hz\"><mrow><mi>f</mi><mo>≈</mo><mn>48.83</mn><mspace width=\"0.2em\"/><mtext>Hz</mtext></mrow></math>"
+    ],
+    "text": "そういう特徴の観察だと理解した上で、今回の解析条件では、この曲で{0}の値が最も大きいのは{1}のようだ。音楽的な音名としてはG（G1付近）に対応している。"
+  },
+  {
+    "id": "51",
+    "html": "<p class=\"prose\" data-source-paragraph=\"62\">音楽的な”調”(キー)は、音高に依存しない。それはオクターブ離れた音に同じ音名を割り当てるような、オクターブ等価性の原理を採用したときに生じる音の捉え方だ。そこでその方向性の評価のためにスペクトルのオクターブ集計を考える。</p>",
+    "inner": "音楽的な”調”(キー)は、音高に依存しない。それはオクターブ離れた音に同じ音名を割り当てるような、オクターブ等価性の原理を採用したときに生じる音の捉え方だ。そこでその方向性の評価のためにスペクトルのオクターブ集計を考える。",
+    "tokens": [],
+    "text": "音楽的な”調”(キー)は、音高に依存しない。それはオクターブ離れた音に同じ音名を割り当てるような、オクターブ等価性の原理を採用したときに生じる音の捉え方だ。そこでその方向性の評価のためにスペクトルのオクターブ集計を考える。"
+  },
+  {
+    "id": "52",
+    "html": "<p class=\"prose\" data-source-paragraph=\"63\">1オクターブ分の周波数について、そのオクターブ関係にある周波数すべてとの平均(または単に合算)を計算して、1オクターブ上に並べるのだ。オクターブは数学的には2倍なので、その連鎖のすべてということで周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>に対して</p>",
+    "inner": "1オクターブ分の周波数について、そのオクターブ関係にある周波数すべてとの平均(または単に合算)を計算して、1オクターブ上に並べるのだ。オクターブは数学的には2倍なので、その連鎖のすべてということで周波数<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>に対して",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"f\"><mrow><mi>f</mi></mrow></math>"
+    ],
+    "text": "1オクターブ分の周波数について、そのオクターブ関係にある周波数すべてとの平均(または単に合算)を計算して、1オクターブ上に並べるのだ。オクターブは数学的には2倍なので、その連鎖のすべてということで周波数{0}に対して"
+  },
+  {
+    "id": "53",
+    "html": "<p class=\"prose\" data-source-paragraph=\"65\">のすべてのkの周波数の値を参照すればいい。こういう計算で得られる、音名を横軸に持ってきた分布を私は音名分布や音名スペクトルと呼んでいる。音名を12平均律に限定する必要はなく、連続的なオクターブ上での計算が可能である。</p>",
+    "inner": "のすべてのkの周波数の値を参照すればいい。こういう計算で得られる、音名を横軸に持ってきた分布を私は音名分布や音名スペクトルと呼んでいる。音名を12平均律に限定する必要はなく、連続的なオクターブ上での計算が可能である。",
+    "tokens": [],
+    "text": "のすべてのkの周波数の値を参照すればいい。こういう計算で得られる、音名を横軸に持ってきた分布を私は音名分布や音名スペクトルと呼んでいる。音名を12平均律に限定する必要はなく、連続的なオクターブ上での計算が可能である。"
+  },
+  {
+    "id": "54",
+    "html": "<p class=\"prose\" data-source-paragraph=\"66\">実際に計算してみると、先ほどの音源では、まず周波数スペクトルの<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>の値の集計ではこうなる</p>",
+    "inner": "実際に計算してみると、先ほどの音源では、まず周波数スペクトルの<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>の値の集計ではこうなる",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "実際に計算してみると、先ほどの音源では、まず周波数スペクトルの{0}の値の集計ではこうなる"
+  },
+  {
+    "id": "55",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "56",
+    "html": "<p class=\"prose\" data-source-paragraph=\"68\">すでにC majorとしての特徴が見えているので面白いと思う(C D E F G A B)。値の大きさはだいたい曲中でのその音の使用回数に比例する。この曲ではCの音の使用量が実際に多いということのようだ。ただし、調の判定は必ずしもその曲の主音を多く使えばよいというわけではないので注意しておく。またほかの特徴として、Cの次にはGが多く、この曲ではAやBの使用はほかのC majorの音名の使用よりも少ないみたいだ。</p>",
+    "inner": "すでにC majorとしての特徴が見えているので面白いと思う(C D E F G A B)。値の大きさはだいたい曲中でのその音の使用回数に比例する。この曲ではCの音の使用量が実際に多いということのようだ。ただし、調の判定は必ずしもその曲の主音を多く使えばよいというわけではないので注意しておく。またほかの特徴として、Cの次にはGが多く、この曲ではAやBの使用はほかのC majorの音名の使用よりも少ないみたいだ。",
+    "tokens": [],
+    "text": "すでにC majorとしての特徴が見えているので面白いと思う(C D E F G A B)。値の大きさはだいたい曲中でのその音の使用回数に比例する。この曲ではCの音の使用量が実際に多いということのようだ。ただし、調の判定は必ずしもその曲の主音を多く使えばよいというわけではないので注意しておく。またほかの特徴として、Cの次にはGが多く、この曲ではAやBの使用はほかのC majorの音名の使用よりも少ないみたいだ。"
+  },
+  {
+    "id": "57",
+    "html": "<p class=\"prose\" data-source-paragraph=\"69\">ここで、今度は調波極性<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>についてのオクターブ集計の計算を行う。するとこうなっている</p>",
+    "inner": "ここで、今度は調波極性<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>についてのオクターブ集計の計算を行う。するとこうなっている",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "ここで、今度は調波極性{0}についてのオクターブ集計の計算を行う。するとこうなっている"
+  },
+  {
+    "id": "58",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "59",
+    "html": "<p class=\"prose\" data-source-paragraph=\"71\">こちらを観察するともっと面白いと思う。まず一番大きな値はFへ変わっている。これはおそらくFの第３倍音がCに相当するため、多数のCの寄与でこうなったのだろう。また、C majorのサブドミナントがF majorなので、その寄与もあっただろう。</p>",
+    "inner": "こちらを観察するともっと面白いと思う。まず一番大きな値はFへ変わっている。これはおそらくFの第３倍音がCに相当するため、多数のCの寄与でこうなったのだろう。また、C majorのサブドミナントがF majorなので、その寄与もあっただろう。",
+    "tokens": [],
+    "text": "こちらを観察するともっと面白いと思う。まず一番大きな値はFへ変わっている。これはおそらくFの第３倍音がCに相当するため、多数のCの寄与でこうなったのだろう。また、C majorのサブドミナントがF majorなので、その寄与もあっただろう。"
+  },
+  {
+    "id": "60",
+    "html": "<p class=\"prose\" data-source-paragraph=\"72\">音名によってプラスとマイナスが分かれている。各12平均律音名の位置から±50 centの範囲で平均すると、</p>",
+    "inner": "音名によってプラスとマイナスが分かれている。各12平均律音名の位置から±50 centの範囲で平均すると、",
+    "tokens": [],
+    "text": "音名によってプラスとマイナスが分かれている。各12平均律音名の位置から±50 centの範囲で平均すると、"
+  },
+  {
+    "id": "61",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "62",
+    "html": "<p class=\"prose\" data-source-paragraph=\"73\">+側:C, F, A#/B♭</p>",
+    "inner": "+側:C, F, A#/B♭",
+    "tokens": [],
+    "text": "+側:C, F, A#/B♭"
+  },
+  {
+    "id": "63",
+    "html": "<p class=\"prose\" data-source-paragraph=\"74\">-側:C#/D♭, D, D#/E♭, E, F#/G♭, G, G#/A♭, A, B</p>",
+    "inner": "-側:C#/D♭, D, D#/E♭, E, F#/G♭, G, G#/A♭, A, B",
+    "tokens": [],
+    "text": "-側:C#/D♭, D, D#/E♭, E, F#/G♭, G, G#/A♭, A, B"
+  },
+  {
+    "id": "64",
+    "html": "<p class=\"prose\" data-source-paragraph=\"75\">最初に説明したように、プラスはほかの音を倍音として引き込むような基本周波数側の音であることの程度、マイナスはほかの音に倍音として引き込まれるような倍音側の音であることの程度、を意味する。ただしオクターブ集計しているので通常の意味とは異なり、そういう値が音名というオクターブ族で平均してどんな傾向であったかを示している。</p>",
+    "inner": "最初に説明したように、プラスはほかの音を倍音として引き込むような基本周波数側の音であることの程度、マイナスはほかの音に倍音として引き込まれるような倍音側の音であることの程度、を意味する。ただしオクターブ集計しているので通常の意味とは異なり、そういう値が音名というオクターブ族で平均してどんな傾向であったかを示している。",
+    "tokens": [],
+    "text": "最初に説明したように、プラスはほかの音を倍音として引き込むような基本周波数側の音であることの程度、マイナスはほかの音に倍音として引き込まれるような倍音側の音であることの程度、を意味する。ただしオクターブ集計しているので通常の意味とは異なり、そういう値が音名というオクターブ族で平均してどんな傾向であったかを示している。"
+  },
+  {
+    "id": "65",
+    "html": "<p class=\"prose\" data-source-paragraph=\"76\">EとGがマイナス側にいるのは特にわかりやすいだろう、Cの第３倍音はGに相当し、第５倍音は平均律位置だと厳密には少しズレるが、Eに相当する。</p>",
+    "inner": "EとGがマイナス側にいるのは特にわかりやすいだろう、Cの第３倍音はGに相当し、第５倍音は平均律位置だと厳密には少しズレるが、Eに相当する。",
+    "tokens": [],
+    "text": "EとGがマイナス側にいるのは特にわかりやすいだろう、Cの第３倍音はGに相当し、第５倍音は平均律位置だと厳密には少しズレるが、Eに相当する。"
+  },
+  {
+    "id": "66",
+    "html": "<p class=\"prose\" data-source-paragraph=\"77\">そして<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)+Q(f)/W\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>（調波融合評価）はこうなる。</p>",
+    "inner": "そして<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)+Q(f)/W\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>（調波融合評価）はこうなる。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)+Q(f)/W\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>"
+    ],
+    "text": "そして{0}（調波融合評価）はこうなる。"
+  },
+  {
+    "id": "67",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "68",
+    "html": "<p class=\"prose\" data-source-paragraph=\"79\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>単体のときとあまり変わっていないようにも見えるかもしれないが、例えば調波極性で正の値が大きかったFが大きくなり、DやEの値は低下している。G#/A♭, A, A#/B♭, Bあたりがほぼ同じ値になって平坦化したのも興味深いだろう。</p>",
+    "inner": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>単体のときとあまり変わっていないようにも見えるかもしれないが、例えば調波極性で正の値が大きかったFが大きくなり、DやEの値は低下している。G#/A♭, A, A#/B♭, Bあたりがほぼ同じ値になって平坦化したのも興味深いだろう。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "{0}単体のときとあまり変わっていないようにも見えるかもしれないが、例えば調波極性で正の値が大きかったFが大きくなり、DやEの値は低下している。G#/A♭, A, A#/B♭, Bあたりがほぼ同じ値になって平坦化したのも興味深いだろう。"
+  },
+  {
+    "id": "69",
+    "html": "<p class=\"prose\" data-source-paragraph=\"81\">これは曲全体での音の平均のスペクトルを使っているから複数の和音の関係が混ざっているが、もちろん各時刻や、一定の区間で平均したスペクトルについて計算すればその時間範囲でつかわれた音の組み合わせについての調波極性を計算することができる。</p>",
+    "inner": "これは曲全体での音の平均のスペクトルを使っているから複数の和音の関係が混ざっているが、もちろん各時刻や、一定の区間で平均したスペクトルについて計算すればその時間範囲でつかわれた音の組み合わせについての調波極性を計算することができる。",
+    "tokens": [],
+    "text": "これは曲全体での音の平均のスペクトルを使っているから複数の和音の関係が混ざっているが、もちろん各時刻や、一定の区間で平均したスペクトルについて計算すればその時間範囲でつかわれた音の組み合わせについての調波極性を計算することができる。"
+  },
+  {
+    "id": "70",
+    "html": "<p class=\"prose\" data-web-addition=\"chord-introduction\">楽曲の音声ではなくて、今度はもっと単純な和音の調波極性を調べてみよう。まずC E Gを等振幅で平均律位置に配置した和音の調波極性を見てみる。</p>",
+    "inner": "楽曲の音声ではなくて、今度はもっと単純な和音の調波極性を調べてみよう。まずC E Gを等振幅で平均律位置に配置した和音の調波極性を見てみる。",
+    "tokens": [],
+    "text": "楽曲の音声ではなくて、今度はもっと単純な和音の調波極性を調べてみよう。まずC E Gを等振幅で平均律位置に配置した和音の調波極性を見てみる。"
+  },
+  {
+    "id": "71",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "72",
+    "html": "<p class=\"prose\" data-source-paragraph=\"83\">今回は等振幅とした影響もあるだろうが、ほぼ第３倍音の寄与で主要ピークが形成されている。プラス側を見ると</p>",
+    "inner": "今回は等振幅とした影響もあるだろうが、ほぼ第３倍音の寄与で主要ピークが形成されている。プラス側を見ると",
+    "tokens": [],
+    "text": "今回は等振幅とした影響もあるだろうが、ほぼ第３倍音の寄与で主要ピークが形成されている。プラス側を見ると"
+  },
+  {
+    "id": "73",
+    "html": "<p class=\"prose\" data-source-paragraph=\"84\">C F AつまりFメジャーコード、</p>",
+    "inner": "C F AつまりFメジャーコード、",
+    "tokens": [],
+    "text": "C F AつまりFメジャーコード、"
+  },
+  {
+    "id": "74",
+    "html": "<p class=\"prose\" data-source-paragraph=\"85\">マイナス側はD G BつまりGメジャーコード</p>",
+    "inner": "マイナス側はD G BつまりGメジャーコード",
+    "tokens": [],
+    "text": "マイナス側はD G BつまりGメジャーコード"
+  },
+  {
+    "id": "75",
+    "html": "<p class=\"prose\" data-source-paragraph=\"86\">になっている。これはそのままC E Gの各音の3倍位置(×3と×1/3)が現れただけの結果である。</p>",
+    "inner": "になっている。これはそのままC E Gの各音の3倍位置(×3と×1/3)が現れただけの結果である。",
+    "tokens": [],
+    "text": "になっている。これはそのままC E Gの各音の3倍位置(×3と×1/3)が現れただけの結果である。"
+  },
+  {
+    "id": "76",
+    "html": "<p class=\"prose\" data-source-paragraph=\"87\">スペクトル強度<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を足して調波融合評価を見てみる。</p>",
+    "inner": "スペクトル強度<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を足して調波融合評価を見てみる。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "スペクトル強度{0}を足して調波融合評価を見てみる。"
+  },
+  {
+    "id": "77",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "78",
+    "html": "<p class=\"prose\" data-source-paragraph=\"89\">音源はC, E, Gともに等振幅であったが、調波融合評価では倍音側に相当するE, Gの値が少し小さくなって、Cが最大の値を持つ音名となった。このようにして、調波融合評価の関数は調波関係的に基本周波数側にある音がどれなのかをある程度評価することができる。Cメジャーコードはその具体例として分かりやすい結果となった。</p>",
+    "inner": "音源はC, E, Gともに等振幅であったが、調波融合評価では倍音側に相当するE, Gの値が少し小さくなって、Cが最大の値を持つ音名となった。このようにして、調波融合評価の関数は調波関係的に基本周波数側にある音がどれなのかをある程度評価することができる。Cメジャーコードはその具体例として分かりやすい結果となった。",
+    "tokens": [],
+    "text": "音源はC, E, Gともに等振幅であったが、調波融合評価では倍音側に相当するE, Gの値が少し小さくなって、Cが最大の値を持つ音名となった。このようにして、調波融合評価の関数は調波関係的に基本周波数側にある音がどれなのかをある程度評価することができる。Cメジャーコードはその具体例として分かりやすい結果となった。"
+  },
+  {
+    "id": "79",
+    "html": "<p class=\"prose\" data-source-paragraph=\"91\">また、今の例の和音は等振幅（今回の場合簡単には音量が等しいと考えていい）だったが、実際の楽曲の中では様々な音の存在比率で、また振幅も複数の周波数に広がった形での和音がいろいろ演奏されると思う。こういう一般の和音について調波極性を計算するのが本当は面白いと思っている。12平均律のほかのコードタイプで計算してもいいし、また例えばそれは12平均律に限定される必要はなく、任意の周波数の組み合わせについて実行できる。</p>",
+    "inner": "また、今の例の和音は等振幅（今回の場合簡単には音量が等しいと考えていい）だったが、実際の楽曲の中では様々な音の存在比率で、また振幅も複数の周波数に広がった形での和音がいろいろ演奏されると思う。こういう一般の和音について調波極性を計算するのが本当は面白いと思っている。12平均律のほかのコードタイプで計算してもいいし、また例えばそれは12平均律に限定される必要はなく、任意の周波数の組み合わせについて実行できる。",
+    "tokens": [],
+    "text": "また、今の例の和音は等振幅（今回の場合簡単には音量が等しいと考えていい）だったが、実際の楽曲の中では様々な音の存在比率で、また振幅も複数の周波数に広がった形での和音がいろいろ演奏されると思う。こういう一般の和音について調波極性を計算するのが本当は面白いと思っている。12平均律のほかのコードタイプで計算してもいいし、また例えばそれは12平均律に限定される必要はなく、任意の周波数の組み合わせについて実行できる。"
+  },
+  {
+    "id": "80",
+    "html": "<p class=\"prose\" data-source-paragraph=\"93\">（ここからは調波極性から少し進んだアイデアを紹介します。）</p>",
+    "inner": "（ここからは調波極性から少し進んだアイデアを紹介します。）",
+    "tokens": [],
+    "text": "（ここからは調波極性から少し進んだアイデアを紹介します。）"
+  },
+  {
+    "id": "81",
+    "html": "<p class=\"prose\" data-source-paragraph=\"94\">ここまでは、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n=2\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math>以上の倍音と下方倍音の成分をプラスマイナスで評価する調波極性<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>と、スペクトル強度<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>とそれを合わせた調波融合評価<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f) + Q(f)/W\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>を見てきた。ここで調波的な関係についてのもう一つの面白い視点について話したい。</p>",
+    "inner": "ここまでは、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n=2\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math>以上の倍音と下方倍音の成分をプラスマイナスで評価する調波極性<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>と、スペクトル強度<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>とそれを合わせた調波融合評価<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f) + Q(f)/W\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>を見てきた。ここで調波的な関係についてのもう一つの面白い視点について話したい。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"n=2\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f) + Q(f)/W\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>"
+    ],
+    "text": "ここまでは、{0}以上の倍音と下方倍音の成分をプラスマイナスで評価する調波極性{1}と、スペクトル強度{2}とそれを合わせた調波融合評価{3}を見てきた。ここで調波的な関係についてのもう一つの面白い視点について話したい。"
+  },
+  {
+    "id": "82",
+    "html": "<p class=\"prose\" data-source-paragraph=\"95\">倍音列の最初の方の音を見てみると</p>",
+    "inner": "倍音列の最初の方の音を見てみると",
+    "tokens": [],
+    "text": "倍音列の最初の方の音を見てみると"
+  },
+  {
+    "id": "83",
+    "html": "<p class=\"prose\" data-source-paragraph=\"97\">これらは実は</p>",
+    "inner": "これらは実は",
+    "tokens": [],
+    "text": "これらは実は"
+  },
+  {
+    "id": "84",
+    "html": "<p class=\"prose\" data-source-paragraph=\"99\">に対応している。C majorならばC C G C E Gである。</p>",
+    "inner": "に対応している。C majorならばC C G C E Gである。",
+    "tokens": [],
+    "text": "に対応している。C majorならばC C G C E Gである。"
+  },
+  {
+    "id": "85",
+    "html": "<p class=\"prose\" data-source-paragraph=\"100\">オクターブは2倍なので、本質的には</p>",
+    "inner": "オクターブは2倍なので、本質的には",
+    "tokens": [],
+    "text": "オクターブは2倍なので、本質的には"
+  },
+  {
+    "id": "86",
+    "html": "<p class=\"prose\" data-source-paragraph=\"102\">の奇数項が重要である。このように、倍音列は長調に関連している感じがする。</p>",
+    "inner": "の奇数項が重要である。このように、倍音列は長調に関連している感じがする。",
+    "tokens": [],
+    "text": "の奇数項が重要である。このように、倍音列は長調に関連している感じがする。"
+  },
+  {
+    "id": "87",
+    "html": "<p class=\"prose\" data-source-paragraph=\"103\">それで下方倍音列を見てみると、面白いことに</p>",
+    "inner": "それで下方倍音列を見てみると、面白いことに",
+    "tokens": [],
+    "text": "それで下方倍音列を見てみると、面白いことに"
+  },
+  {
+    "id": "88",
+    "html": "<p class=\"prose\" data-source-paragraph=\"105\">は</p>",
+    "inner": "は",
+    "tokens": [],
+    "text": "は"
+  },
+  {
+    "id": "89",
+    "html": "<p class=\"prose\" data-source-paragraph=\"107\">に対応している。ここで”<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/3\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math>”をドに読み替えると</p>",
+    "inner": "に対応している。ここで”<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/3\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math>”をドに読み替えると",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/3\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math>"
+    ],
+    "text": "に対応している。ここで”{0}”をドに読み替えると"
+  },
+  {
+    "id": "90",
+    "html": "<p class=\"prose\" data-source-paragraph=\"109\">に対応する。つまりマイナーコードである。従来の10:12:15の比は<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/4\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/5\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/6\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></math>の部分で一致する。ただし<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/6\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></math>が根音である。</p>",
+    "inner": "に対応する。つまりマイナーコードである。従来の10:12:15の比は<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/4\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/5\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/6\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></math>の部分で一致する。ただし<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/6\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></math>が根音である。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/4\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/5\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/6\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/6\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></math>"
+    ],
+    "text": "に対応する。つまりマイナーコードである。従来の10:12:15の比は{0}, {1}, {2}の部分で一致する。ただし{3}が根音である。"
+  },
+  {
+    "id": "91",
+    "html": "<p class=\"prose\" data-source-paragraph=\"110\">そんな風にして、下方倍音列と短調の関連性がなんとなく示唆される。</p>",
+    "inner": "そんな風にして、下方倍音列と短調の関連性がなんとなく示唆される。",
+    "tokens": [],
+    "text": "そんな風にして、下方倍音列と短調の関連性がなんとなく示唆される。"
+  },
+  {
+    "id": "92",
+    "html": "<p class=\"prose\" data-source-paragraph=\"111\">そこで、調波極性でこれを評価できないだろうかと考えた。いくつか案があった。列の”1”(実音、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>の部分)が問題で、倍音列の仲間にするならプラスの符号で、調波融合評価で計算するのが合うが、もしマイナーコード的に見るために下方倍音列の仲間にしたいなら、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>にマイナスの符号をつけて<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-P(f) + Q(f)/W\"><mrow><mo>−</mo><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>を計算するという方法もある。調波極性<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>のマイナスの部分がn=2以降の下方倍音列になっているので、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>をその仲間にするわけである。</p>",
+    "inner": "そこで、調波極性でこれを評価できないだろうかと考えた。いくつか案があった。列の”1”(実音、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>の部分)が問題で、倍音列の仲間にするならプラスの符号で、調波融合評価で計算するのが合うが、もしマイナーコード的に見るために下方倍音列の仲間にしたいなら、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>にマイナスの符号をつけて<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-P(f) + Q(f)/W\"><mrow><mo>−</mo><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>を計算するという方法もある。調波極性<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>のマイナスの部分がn=2以降の下方倍音列になっているので、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>をその仲間にするわけである。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-P(f) + Q(f)/W\"><mrow><mo>−</mo><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "そこで、調波極性でこれを評価できないだろうかと考えた。いくつか案があった。列の”1”(実音、{0}の部分)が問題で、倍音列の仲間にするならプラスの符号で、調波融合評価で計算するのが合うが、もしマイナーコード的に見るために下方倍音列の仲間にしたいなら、{1}にマイナスの符号をつけて{2}を計算するという方法もある。調波極性{3}のマイナスの部分がn=2以降の下方倍音列になっているので、{4}をその仲間にするわけである。"
+  },
+  {
+    "id": "93",
+    "html": "<p class=\"prose\" data-web-addition=\"minor-example-intro\">それで実際に<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-P(f) + Q(f)/W\"><mrow><mo>−</mo><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>をCマイナーコードについて計算してみると</p>",
+    "inner": "それで実際に<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-P(f) + Q(f)/W\"><mrow><mo>−</mo><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>をCマイナーコードについて計算してみると",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"-P(f) + Q(f)/W\"><mrow><mo>−</mo><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>+</mo><mfrac><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow><mrow><mi>W</mi></mrow></mfrac></mrow></math>"
+    ],
+    "text": "それで実際に{0}をCマイナーコードについて計算してみると"
+  },
+  {
+    "id": "94",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "95",
+    "html": "<p class=\"prose\" data-web-addition=\"minor-example-result\">このように実際、Gが負の最大となり、下方倍音列の特徴が出る。</p>",
+    "inner": "このように実際、Gが負の最大となり、下方倍音列の特徴が出る。",
+    "tokens": [],
+    "text": "このように実際、Gが負の最大となり、下方倍音列の特徴が出る。"
+  },
+  {
+    "id": "96",
+    "html": "<p class=\"prose\" data-web-addition=\"vector-transition\">しかし、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mi>P</mi></math>の符号を長調系短調系の判定ごとに変えなければいけないのは少し面倒だと私は考えた。それで、</p>",
+    "inner": "しかし、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mi>P</mi></math>の符号を長調系短調系の判定ごとに変えなければいけないのは少し面倒だと私は考えた。それで、",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mi>P</mi></math>"
+    ],
+    "text": "しかし、{0}の符号を長調系短調系の判定ごとに変えなければいけないのは少し面倒だと私は考えた。それで、"
+  },
+  {
+    "id": "97",
+    "html": "<p class=\"prose\" data-source-paragraph=\"113\">という複素数を設計してみた。これを”<strong class=\"first-term\">調波極性ベクトル</strong>”と呼んでいる。複素数であり、ある種の2次元ベクトルである。</p>",
+    "inner": "という複素数を設計してみた。これを”<strong class=\"first-term\">調波極性ベクトル</strong>”と呼んでいる。複素数であり、ある種の2次元ベクトルである。",
+    "tokens": [
+      "<strong class=\"first-term\">調波極性ベクトル</strong>"
+    ],
+    "text": "という複素数を設計してみた。これを”{0}”と呼んでいる。複素数であり、ある種の2次元ベクトルである。"
+  },
+  {
+    "id": "98",
+    "html": "<p class=\"prose\" data-source-paragraph=\"114\">この表現のいいところは、先に提案した<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>の符号を変えて加算する評価の両方の値を含んでいることである。+45°への射影と-45°への射影がそれぞれ</p>",
+    "inner": "この表現のいいところは、先に提案した<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>の符号を変えて加算する評価の両方の値を含んでいることである。+45°への射影と-45°への射影がそれぞれ",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P\"><mrow><mi>P</mi></mrow></math>"
+    ],
+    "text": "この表現のいいところは、先に提案した{0}の符号を変えて加算する評価の両方の値を含んでいることである。+45°への射影と-45°への射影がそれぞれ"
+  },
+  {
+    "id": "99",
+    "html": "<p class=\"prose\" data-source-paragraph=\"117\">であり、同種の量になっているのだ。射影でなく複素数そのものを見れば、その周波数が倍音列の調波融合寄りなのか、下方倍音列の仲間になるような方向寄りなのかを、その間の評価を含めてみることができる。</p>",
+    "inner": "であり、同種の量になっているのだ。射影でなく複素数そのものを見れば、その周波数が倍音列の調波融合寄りなのか、下方倍音列の仲間になるような方向寄りなのかを、その間の評価を含めてみることができる。",
+    "tokens": [],
+    "text": "であり、同種の量になっているのだ。射影でなく複素数そのものを見れば、その周波数が倍音列の調波融合寄りなのか、下方倍音列の仲間になるような方向寄りなのかを、その間の評価を含めてみることができる。"
+  },
+  {
+    "id": "100",
+    "html": "<p class=\"prose\" data-web-addition=\"vector-source-label\">Cメジャーについては：</p>",
+    "inner": "Cメジャーについては：",
+    "tokens": [],
+    "text": "Cメジャーについては："
+  },
+  {
+    "id": "101",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "102",
+    "html": "<p class=\"prose\" data-web-addition=\"vector-source-label\">Cマイナーについては：</p>",
+    "inner": "Cマイナーについては：",
+    "tokens": [],
+    "text": "Cマイナーについては："
+  },
+  {
+    "id": "103",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "104",
+    "html": "<p class=\"prose\" data-web-addition=\"vector-source-label\">C major Prelude(Bach)については：</p>",
+    "inner": "C major Prelude(Bach)については：",
+    "tokens": [],
+    "text": "C major Prelude(Bach)については："
+  },
+  {
+    "id": "105",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "106",
+    "html": "<p class=\"prose\" data-source-paragraph=\"121\">ただし、調波極性ベクトルのままでは落としてしまう部分がある。それは、ある周波数に、倍音列的な調波関係と下方倍音列的な調波関係の両方が存在する場合である。例えばFとGを重ねた和音では、FはCの×<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/3\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math>側、GはCの×3側にいるため、Cが両方の調波関係を持つことになる。これが調波極性ベクトルでは実部につぶれてしまい、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>の大きさ（音が実際に存在する量）と混ざってしまうのだ。</p>",
+    "inner": "ただし、調波極性ベクトルのままでは落としてしまう部分がある。それは、ある周波数に、倍音列的な調波関係と下方倍音列的な調波関係の両方が存在する場合である。例えばFとGを重ねた和音では、FはCの×<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/3\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math>側、GはCの×3側にいるため、Cが両方の調波関係を持つことになる。これが調波極性ベクトルでは実部につぶれてしまい、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>の大きさ（音が実際に存在する量）と混ざってしまうのだ。",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"1/3\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "ただし、調波極性ベクトルのままでは落としてしまう部分がある。それは、ある周波数に、倍音列的な調波関係と下方倍音列的な調波関係の両方が存在する場合である。例えばFとGを重ねた和音では、FはCの×{0}側、GはCの×3側にいるため、Cが両方の調波関係を持つことになる。これが調波極性ベクトルでは実部につぶれてしまい、{1}の大きさ（音が実際に存在する量）と混ざってしまうのだ。"
+  },
+  {
+    "id": "107",
+    "html": "<p class=\"prose\" data-source-paragraph=\"122\">そこで次の式を思いついた。</p>",
+    "inner": "そこで次の式を思いついた。",
+    "tokens": [],
+    "text": "そこで次の式を思いついた。"
+  },
+  {
+    "id": "108",
+    "html": "<p class=\"prose\" data-source-paragraph=\"124\">色の三原色のように、複素平面上の角度の3等分割の方向に実際のスペクトル強度<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>, 倍音列的な調波関係項の<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"H(f)\"><mrow><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>, 下方倍音列的な調波関係項の<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"S(f)\"><mrow><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を並べた複素数である。実部と虚部に式展開すると実は</p>",
+    "inner": "色の三原色のように、複素平面上の角度の3等分割の方向に実際のスペクトル強度<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>, 倍音列的な調波関係項の<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"H(f)\"><mrow><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>, 下方倍音列的な調波関係項の<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"S(f)\"><mrow><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を並べた複素数である。実部と虚部に式展開すると実は",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"P(f)\"><mrow><mi>P</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"H(f)\"><mrow><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"S(f)\"><mrow><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "色の三原色のように、複素平面上の角度の3等分割の方向に実際のスペクトル強度{0}, 倍音列的な調波関係項の{1}, 下方倍音列的な調波関係項の{2}を並べた複素数である。実部と虚部に式展開すると実は"
+  },
+  {
+    "id": "109",
+    "html": "<p class=\"prose\" data-source-paragraph=\"126\">となっていて、調波極性ベクトルと同じ（ものを定数倍した）虚部を含んでいるのである！（※<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f) = H(f) - S(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>=</mo><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>−</mo><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>）</p>",
+    "inner": "となっていて、調波極性ベクトルと同じ（ものを定数倍した）虚部を含んでいるのである！（※<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f) = H(f) - S(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>=</mo><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>−</mo><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>）",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"Q(f) = H(f) - S(f)\"><mrow><mi>Q</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>=</mo><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow><mo>−</mo><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "となっていて、調波極性ベクトルと同じ（ものを定数倍した）虚部を含んでいるのである！（※{0}）"
+  },
+  {
+    "id": "110",
+    "html": "<p class=\"prose\" data-source-paragraph=\"127\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"H(f)\"><mrow><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を+120°の位置、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"S(f)\"><mrow><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を-120°の位置に配置したため、両者が強い場合にはちょうどベクトルの合成で±180°に近い方向を向くことになる（さらに実部も強いと打ち消されて座標の原点に近づく。）</p>",
+    "inner": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"H(f)\"><mrow><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を+120°の位置、<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"S(f)\"><mrow><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>を-120°の位置に配置したため、両者が強い場合にはちょうどベクトルの合成で±180°に近い方向を向くことになる（さらに実部も強いと打ち消されて座標の原点に近づく。）",
+    "tokens": [
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"H(f)\"><mrow><mi>H</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>",
+      "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" aria-label=\"S(f)\"><mrow><mi>S</mi><mo>⁡</mo><mrow><mo>(</mo><mi>f</mi><mo>)</mo></mrow></mrow></math>"
+    ],
+    "text": "{0}を+120°の位置、{1}を-120°の位置に配置したため、両者が強い場合にはちょうどベクトルの合成で±180°に近い方向を向くことになる（さらに実部も強いと打ち消されて座標の原点に近づく。）"
+  },
+  {
+    "id": "111",
+    "html": "<p class=\"prose\" data-source-paragraph=\"128\">これを、”<strong class=\"first-term\">調波特性ベクトル</strong>”と呼んでいる。音の調波関係的なキャラクターを示す複素数値として使えるのではないかと考えて、私もまだいろいろ実験しているところです。</p>",
+    "inner": "これを、”<strong class=\"first-term\">調波特性ベクトル</strong>”と呼んでいる。音の調波関係的なキャラクターを示す複素数値として使えるのではないかと考えて、私もまだいろいろ実験しているところです。",
+    "tokens": [
+      "<strong class=\"first-term\">調波特性ベクトル</strong>"
+    ],
+    "text": "これを、”{0}”と呼んでいる。音の調波関係的なキャラクターを示す複素数値として使えるのではないかと考えて、私もまだいろいろ実験しているところです。"
+  },
+  {
+    "id": "112",
+    "html": "<p class=\"prose\" data-web-addition=\"three-phase-source-label\">Cメジャーについては：</p>",
+    "inner": "Cメジャーについては：",
+    "tokens": [],
+    "text": "Cメジャーについては："
+  },
+  {
+    "id": "113",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "114",
+    "html": "<p class=\"prose\" data-web-addition=\"three-phase-source-label\">Cマイナーについては：</p>",
+    "inner": "Cマイナーについては：",
+    "tokens": [],
+    "text": "Cマイナーについては："
+  },
+  {
+    "id": "115",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "116",
+    "html": "<p class=\"prose\" data-web-addition=\"three-phase-source-label\">C major Prelude(Bach)については：</p>",
+    "inner": "C major Prelude(Bach)については：",
+    "tokens": [],
+    "text": "C major Prelude(Bach)については："
+  },
+  {
+    "id": "117",
+    "html": "<p>表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。</p>",
+    "inner": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。",
+    "tokens": [],
+    "text": "表示の拡大・移動では解析結果は変わりません。音声の再生は行いません。"
+  },
+  {
+    "id": "118",
+    "html": "<p class=\"prose\" data-source-paragraph=\"133\">今回の記事はここで終わりにします。いかがだったでしょうか。調波特性ベクトルについては、</p>",
+    "inner": "今回の記事はここで終わりにします。いかがだったでしょうか。調波特性ベクトルについては、",
+    "tokens": [],
+    "text": "今回の記事はここで終わりにします。いかがだったでしょうか。調波特性ベクトルについては、"
+  },
+  {
+    "id": "119",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">など実はまだまだ話したい内容があったのですが、まだ研究・発見が続いていて体系的にこのベクトルの性質を説明できるほどの内容が組めていないことと、また調波極性の説明だけで割と長いページになってしまったのもあって、今回は思い切って省略してしまいました。</p>",
+    "inner": "など実はまだまだ話したい内容があったのですが、まだ研究・発見が続いていて体系的にこのベクトルの性質を説明できるほどの内容が組めていないことと、また調波極性の説明だけで割と長いページになってしまったのもあって、今回は思い切って省略してしまいました。",
+    "tokens": [],
+    "text": "など実はまだまだ話したい内容があったのですが、まだ研究・発見が続いていて体系的にこのベクトルの性質を説明できるほどの内容が組めていないことと、また調波極性の説明だけで割と長いページになってしまったのもあって、今回は思い切って省略してしまいました。"
+  },
+  {
+    "id": "120",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">調波極性だけでも新しい概念だったと思うので（調波融合の計算自体は新規性があるわけでもなく、複数の論文やソフトウェアでの実装で扱われているものですが、下方倍音を計算に取り入れたものは少ないようです）、新鮮な感じを受けてもらえたかと思います。</p>",
+    "inner": "調波極性だけでも新しい概念だったと思うので（調波融合の計算自体は新規性があるわけでもなく、複数の論文やソフトウェアでの実装で扱われているものですが、下方倍音を計算に取り入れたものは少ないようです）、新鮮な感じを受けてもらえたかと思います。",
+    "tokens": [],
+    "text": "調波極性だけでも新しい概念だったと思うので（調波融合の計算自体は新規性があるわけでもなく、複数の論文やソフトウェアでの実装で扱われているものですが、下方倍音を計算に取り入れたものは少ないようです）、新鮮な感じを受けてもらえたかと思います。"
+  },
+  {
+    "id": "121",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">特に、&quot;<strong>下方倍音がある意味で倍音列の逆であるというアイデア</strong>&quot;は、今回の調波極性の計算以外でも活用していただける発想なのではないでしょうか？<br>これは下方倍音列を&quot;<strong>ある固定された周波数を第n倍音に持つような周波数の列</strong>&quot;と捉えることができるという話でもあります。</p>",
+    "inner": "特に、&quot;<strong>下方倍音がある意味で倍音列の逆であるというアイデア</strong>&quot;は、今回の調波極性の計算以外でも活用していただける発想なのではないでしょうか？<br>これは下方倍音列を&quot;<strong>ある固定された周波数を第n倍音に持つような周波数の列</strong>&quot;と捉えることができるという話でもあります。",
+    "tokens": [
+      "<strong>下方倍音がある意味で倍音列の逆であるというアイデア</strong>",
+      "<strong>ある固定された周波数を第n倍音に持つような周波数の列</strong>"
+    ],
+    "text": "特に、&quot;{0}&quot;は、今回の調波極性の計算以外でも活用していただける発想なのではないでしょうか？<br>これは下方倍音列を&quot;{1}&quot;と捉えることができるという話でもあります。"
+  },
+  {
+    "id": "122",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">「下方倍音列は物理的に存在しないから、理論は成り立たない」</p>",
+    "inner": "「下方倍音列は物理的に存在しないから、理論は成り立たない」",
+    "tokens": [],
+    "text": "「下方倍音列は物理的に存在しないから、理論は成り立たない」"
+  },
+  {
+    "id": "123",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">という風な捉え方をされてしまうことが多いこの概念ですが、そもそも倍音と、和音の協和の関係自体が、倍音を含まない波である、&quot;正弦波(純音)&quot;でも成り立つ話です。<br>倍音や下方倍音を周波数間の数的な&quot;関係&quot;として捉えるという見方が意外に一般の認識として広まっていないようで、少し残念に思っています。ですが今回の記事を読んで、今後新しい視点として取り入れてくださる方がいらっしゃれば幸いです。<br>計算が分からなかった方でもここだけでも持ち帰っていただけたらと思います。</p>",
+    "inner": "という風な捉え方をされてしまうことが多いこの概念ですが、そもそも倍音と、和音の協和の関係自体が、倍音を含まない波である、&quot;正弦波(純音)&quot;でも成り立つ話です。<br>倍音や下方倍音を周波数間の数的な&quot;関係&quot;として捉えるという見方が意外に一般の認識として広まっていないようで、少し残念に思っています。ですが今回の記事を読んで、今後新しい視点として取り入れてくださる方がいらっしゃれば幸いです。<br>計算が分からなかった方でもここだけでも持ち帰っていただけたらと思います。",
+    "tokens": [],
+    "text": "という風な捉え方をされてしまうことが多いこの概念ですが、そもそも倍音と、和音の協和の関係自体が、倍音を含まない波である、&quot;正弦波(純音)&quot;でも成り立つ話です。<br>倍音や下方倍音を周波数間の数的な&quot;関係&quot;として捉えるという見方が意外に一般の認識として広まっていないようで、少し残念に思っています。ですが今回の記事を読んで、今後新しい視点として取り入れてくださる方がいらっしゃれば幸いです。<br>計算が分からなかった方でもここだけでも持ち帰っていただけたらと思います。"
+  },
+  {
+    "id": "124",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">しかし、グラフを見るだけでも、今回は式の紹介くらいしかできませんでしたが調波特性ベクトルの面白さは分かってもらえるのではないでしょうか。上のC major Preludeのグラフでは音によって偏角がかなり変わっていて、それぞれの音の調波関係的な役割の違いが可視化できているのではないかと思います。</p>",
+    "inner": "しかし、グラフを見るだけでも、今回は式の紹介くらいしかできませんでしたが調波特性ベクトルの面白さは分かってもらえるのではないでしょうか。上のC major Preludeのグラフでは音によって偏角がかなり変わっていて、それぞれの音の調波関係的な役割の違いが可視化できているのではないかと思います。",
+    "tokens": [],
+    "text": "しかし、グラフを見るだけでも、今回は式の紹介くらいしかできませんでしたが調波特性ベクトルの面白さは分かってもらえるのではないでしょうか。上のC major Preludeのグラフでは音によって偏角がかなり変わっていて、それぞれの音の調波関係的な役割の違いが可視化できているのではないかと思います。"
+  },
+  {
+    "id": "125",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">もっとも、今回は少ない音源で簡単な例しか示せていません。そこで、皆さんご自身で実験や観察ができるように、ウェブアプリを作ってあります。</p>",
+    "inner": "もっとも、今回は少ない音源で簡単な例しか示せていません。そこで、皆さんご自身で実験や観察ができるように、ウェブアプリを作ってあります。",
+    "tokens": [],
+    "text": "もっとも、今回は少ない音源で簡単な例しか示せていません。そこで、皆さんご自身で実験や観察ができるように、ウェブアプリを作ってあります。"
+  },
+  {
+    "id": "126",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">簡易的なものとしては、こちら：<br><a href=\"https://uriop-dogg.github.io/m2_apps/FundamentalPerceptionWeb/index.html\">基音の知覚・シミュレーター</a></p>",
+    "inner": "簡易的なものとしては、こちら：<br><a href=\"https://uriop-dogg.github.io/m2_apps/FundamentalPerceptionWeb/index.html\">基音の知覚・シミュレーター</a>",
+    "tokens": [
+      "<a href=\"https://uriop-dogg.github.io/m2_apps/FundamentalPerceptionWeb/index.html\">基音の知覚・シミュレーター</a>"
+    ],
+    "text": "簡易的なものとしては、こちら：<br>{0}"
+  },
+  {
+    "id": "127",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">今回の記事で紹介した関数のグラフを、音声ファイルまたはマイク入力で計算表示することができ、また&quot;コード理論の裏側&quot;では、12平均律の音名の音量バーを上げ下げすることで和音を作り、その調波関係のグラフを見ることができるような機能となっています。</p>",
+    "inner": "今回の記事で紹介した関数のグラフを、音声ファイルまたはマイク入力で計算表示することができ、また&quot;コード理論の裏側&quot;では、12平均律の音名の音量バーを上げ下げすることで和音を作り、その調波関係のグラフを見ることができるような機能となっています。",
+    "tokens": [],
+    "text": "今回の記事で紹介した関数のグラフを、音声ファイルまたはマイク入力で計算表示することができ、また&quot;コード理論の裏側&quot;では、12平均律の音名の音量バーを上げ下げすることで和音を作り、その調波関係のグラフを見ることができるような機能となっています。"
+  },
+  {
+    "id": "128",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">細かいパラメータ変更やグラフ出力がついているものとしては、こちら：<br><a href=\"https://uriop-dogg.github.io/m2_apps/TonalWaveWeb/index.html\">TONAL / WAVE WEB</a></p>",
+    "inner": "細かいパラメータ変更やグラフ出力がついているものとしては、こちら：<br><a href=\"https://uriop-dogg.github.io/m2_apps/TonalWaveWeb/index.html\">TONAL / WAVE WEB</a>",
+    "tokens": [
+      "<a href=\"https://uriop-dogg.github.io/m2_apps/TonalWaveWeb/index.html\">TONAL / WAVE WEB</a>"
+    ],
+    "text": "細かいパラメータ変更やグラフ出力がついているものとしては、こちら：<br>{0}"
+  },
+  {
+    "id": "129",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">音声ファイルを読み込ませて調波極性系のグラフを計算できるアプリです。グラフのpng, csvなどの出力に対応しています。グラフの表示方法も複数実装されていて、例えば一つの音高・音名を指定してその調波関係の値を時間波形として並べて見る機能や、複素値の対応する複素平面上に音高・音名の値に対応する曲線を描画する機能などもあります。また、曲のテンポに合わせた四分音符などの時間区間でスペクトル値を平均しての調波関係の連続的な解析など、便利な機能がついています。</p>",
+    "inner": "音声ファイルを読み込ませて調波極性系のグラフを計算できるアプリです。グラフのpng, csvなどの出力に対応しています。グラフの表示方法も複数実装されていて、例えば一つの音高・音名を指定してその調波関係の値を時間波形として並べて見る機能や、複素値の対応する複素平面上に音高・音名の値に対応する曲線を描画する機能などもあります。また、曲のテンポに合わせた四分音符などの時間区間でスペクトル値を平均しての調波関係の連続的な解析など、便利な機能がついています。",
+    "tokens": [],
+    "text": "音声ファイルを読み込ませて調波極性系のグラフを計算できるアプリです。グラフのpng, csvなどの出力に対応しています。グラフの表示方法も複数実装されていて、例えば一つの音高・音名を指定してその調波関係の値を時間波形として並べて見る機能や、複素値の対応する複素平面上に音高・音名の値に対応する曲線を描画する機能などもあります。また、曲のテンポに合わせた四分音符などの時間区間でスペクトル値を平均しての調波関係の連続的な解析など、便利な機能がついています。"
+  },
+  {
+    "id": "130",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">ぜひ、自分の好きな和音コードや、曲・自分の作った曲について調波極性を計算してみて新しい発見をしてみてください。</p>",
+    "inner": "ぜひ、自分の好きな和音コードや、曲・自分の作った曲について調波極性を計算してみて新しい発見をしてみてください。",
+    "tokens": [],
+    "text": "ぜひ、自分の好きな和音コードや、曲・自分の作った曲について調波極性を計算してみて新しい発見をしてみてください。"
+  },
+  {
+    "id": "131",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">私が目指しているのは人が感じている音の空間を色彩科学の色の空間のように表現できるようにする音の理論を作ることです。実用的な内容にはまだまだ達していないですが、今後も研究を続けていくつもりですので良かったらまた<a href=\"https://x.com/Fmajorflatseven\">Xのアカウント</a>やこのホームページを覗いてみてください。</p>",
+    "inner": "私が目指しているのは人が感じている音の空間を色彩科学の色の空間のように表現できるようにする音の理論を作ることです。実用的な内容にはまだまだ達していないですが、今後も研究を続けていくつもりですので良かったらまた<a href=\"https://x.com/Fmajorflatseven\">Xのアカウント</a>やこのホームページを覗いてみてください。",
+    "tokens": [
+      "<a href=\"https://x.com/Fmajorflatseven\">Xのアカウント</a>"
+    ],
+    "text": "私が目指しているのは人が感じている音の空間を色彩科学の色の空間のように表現できるようにする音の理論を作ることです。実用的な内容にはまだまだ達していないですが、今後も研究を続けていくつもりですので良かったらまた{0}やこのホームページを覗いてみてください。"
+  },
+  {
+    "id": "132",
+    "html": "<p class=\"prose\" data-web-addition=\"afterword\">ご拝読ありがとうございました。Woolyでした。</p>",
+    "inner": "ご拝読ありがとうございました。Woolyでした。",
+    "tokens": [],
+    "text": "ご拝読ありがとうございました。Woolyでした。"
+  }
+]

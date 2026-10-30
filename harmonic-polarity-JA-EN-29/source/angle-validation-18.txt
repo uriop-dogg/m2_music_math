@@ -1,0 +1,10 @@
+3 audio sources × 2 views × 2 complex definitions. 79212 nonzero complex samples checked.
+Maximum wrapped angle error: 4.26e-13 degrees.
+Magnitudes also match independent NumPy complex-exponential definitions.
+Zero magnitude has undefined phase (NaN in engine).
+bach vector: G vicinity 694 cent / -4.3499 deg
+bach three-phase: G vicinity 694 cent / -13.5590 deg
+chord vector: G vicinity 604 cent / -89.9500 deg, 631 cent / 89.8939 deg, 652 cent / 88.9716 deg
+chord three-phase: G vicinity 604 cent / -122.8618 deg, 631 cent / 123.4346 deg, 652 cent / 123.3661 deg
+minor vector: G vicinity 605 cent / -88.7766 deg, 625 cent / -88.4504 deg, 654 cent / 89.1658 deg, 699 cent / -14.0166 deg
+minor three-phase: G vicinity 625 cent / -122.8095 deg, 654 cent / 121.7330 deg, 686 cent / -115.4871 deg, 699 cent / -32.8731 deg

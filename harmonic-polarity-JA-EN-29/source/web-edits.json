@@ -1,0 +1,216 @@
+{
+  "revision": "29",
+  "mutopia_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=5",
+  "first_terms": [
+    "調波極性",
+    "調波融合評価",
+    "調波極性ベクトル",
+    "調波特性ベクトル"
+  ],
+  "removed_ui": [
+    "本文へ",
+    "下書き"
+  ],
+  "application_link": "あとがき原稿の2つのウェブアプリURLを実装済み",
+  "paragraphs_updated": [
+    1,
+    26,
+    27,
+    53,
+    60,
+    81,
+    126
+  ],
+  "note": "article.json/source-map.json include the user revisions. Do not rebuild solely from the original DOCX without applying these changes.",
+  "site_name": "Woolyのホームページ",
+  "title": "調波極性:新しい音の関係の捉え方の\"数学的\"アイデア",
+  "title_line_break": [
+    "after colon",
+    "before quoted 数学的"
+  ],
+  "section_02_first_term_bold": true,
+  "harmonic_explorer": {
+    "after_paragraph": 6,
+    "fundamental": "C3, A4=440Hz",
+    "harmonics": 16,
+    "amplitude": "1/n",
+    "modes": [
+      "mix"
+    ],
+    "buttons": [
+      "All",
+      "All Off"
+    ],
+    "description": "C3の音高にノコギリ波の倍音に対応する音を重ねてみましょう。一体化して聞こえてしまい、個々の音を認識するのが難しくなっていくと思います。"
+  },
+  "bach_audio": {
+    "file": "assets/audio/bach_sine_midi.wav",
+    "paragraph": 39,
+    "placement": "音源を作成した。の直後。スペクトルの説明は別段落。",
+    "autoplay": false
+  },
+  "computed_graphs": 13,
+  "analysis_metadata": "source/analysis.json",
+  "graph_presentation": "axes and curves; controls/legend/notes in collapsed menu",
+  "frequency_viewport": "abs(curve) >= peak * 1e-4, with 100-cent margin and semitone-rounded limits; full analysis retained",
+  "single_tone_text": {
+    "paragraph": 48,
+    "text": "が成り立つため、各倍音次数でこれが起きて下のような調波極性のグラフとなる。",
+    "after_figure": "single-tone-relations",
+    "added_paragraph": "このように、左側に正の値、右側に負の値が出現していくのだ。通常の音声でもこれが重なってあのようなグラフとなる。"
+  },
+  "Q_maximum": {
+    "audio": "bach_sine_midi.wav",
+    "paragraph": 59,
+    "frequency_Hz": 48.829904350072134,
+    "Q": 0.0006018155844278631,
+    "pitch": "G1",
+    "cents_from_G1": -6,
+    "search": "maximum over the displayed C0..C10 grid, 1 cent spacing; same analysis settings as the site",
+    "text": "そういう特徴の観察だと理解した上で、今回の解析条件では、この曲でQ(f)の値が最も大きいのはf ≈ 48.83 Hzのようだ。音楽的な音名としてはG（G1付近）に対応している。"
+  },
+  "paragraph_68_addition": "(C D E F G A B)",
+  "paragraph_68_next_frequency_sentence": "またほかの特徴として、Cの次にはGが多く、この曲ではAやBの使用はほかのC majorの音名の使用よりも少ないみたいだ。",
+  "pitch_bin_classification": {
+    "method": "cent-axis mean on [-50,+50] around each note; composite trapezoid at 1-cent spacing after octave mean; classify by sign",
+    "values": {
+      "C": 4.505898046954385e-06,
+      "C#/D♭": -5.774104573113294e-07,
+      "D": -1.638172069695218e-05,
+      "D#/E♭": -4.6335335380593254e-07,
+      "E": -5.631387393365407e-06,
+      "F": 1.247667568722746e-05,
+      "F#/G♭": -8.993434241275098e-06,
+      "G": -1.2258040047377134e-05,
+      "G#/A♭": -1.218435188650818e-06,
+      "A": -8.432856970475e-06,
+      "A#/B♭": 3.312048989835346e-06,
+      "B": -1.3107822208755883e-05
+    },
+    "paragraphs": {
+      "73": "+側:C, F, A#/B♭",
+      "74": "-側:C#/D♭, D, D#/E♭, E, F#/G♭, G, G#/A♭, A, B"
+    },
+    "unclear": []
+  },
+  "chord_audio_player": {
+    "after_paragraph": 81,
+    "file": "assets/audio/C_major_equal_amplitude.wav"
+  },
+  "chord_fusion_rewrite": {
+    "paragraph_89": "音源はC, E, Gともに等振幅であったが、調波融合評価では倍音側に相当するE, Gの値が少し小さくなって、Cが最大の値を持つ音名となった。このようにして、調波融合評価の関数は調波関係的に基本周波数側にある音がどれなのかをある程度評価することができる。Cメジャーコードはその具体例として分かりやすい結果となった。",
+    "paragraph_90_removed_prefix": "この結果は、Cメジャーコードを入力してその調波融合評価を計算したときに、C, D, E, F, G, A, BとCメジャースケールが主要なピークとして残った例として少し面白いかもしれない。"
+  },
+  "minor_example": {
+    "after_paragraph": 111,
+    "intro": "それで実際に-P(f) + Q(f)/WをCマイナーコードについて計算してみると",
+    "result": "このように実際、Gが負の最大となり、下方倍音列の特徴が出る。",
+    "transition": "しかし、Pの符号を長調系短調系の判定ごとに変えなければいけないのは少し面倒だと私は考えた。それで、",
+    "minimum": -0.002438427714226181,
+    "cents_from_C": 699,
+    "note": "G付近、1 cent刻みの音名グラフ上の最小値"
+  },
+  "deleted_paragraph_90": true,
+  "visible_graph_view_selectors": [
+    "prelude-vector",
+    "chord-vector",
+    "prelude-three-phase",
+    "chord-three-phase",
+    "minor-chord-fusion",
+    "minor-chord-vector",
+    "minor-chord-three-phase"
+  ],
+  "vector_example_order": [
+    "Cメジャー",
+    "Cマイナー",
+    "C major Prelude(Bach)"
+  ],
+  "vector_default_view": "pitch-class",
+  "vector_example_intro": "(音源の名称)については：",
+  "complex_graph_labels": {
+    "pitch_class": "prefer taller peaks when within 35px; no vertical stacking; hovered smaller peak takes priority",
+    "frequency": "only hovered local maximum within 22px in two dimensions",
+    "legend": "always visible below horizontal axis on all six complex graphs",
+    "markers": "point markers and leader lines associate labels with exact extrema"
+  },
+  "paragraph_94_replacement": "スペクトル強度P(f)とそれを合わせた調波極性評価",
+  "angle_audit": {
+    "samples": 79212,
+    "max_error_degrees": 4.26e-13,
+    "report": "source/angle-validation-18.txt",
+    "screenshot_example": [
+      {
+        "cents_from_C": 694,
+        "angle_degrees": -13.559
+      },
+      {
+        "cents_from_C": 702,
+        "angle_degrees": -36.23
+      }
+    ]
+  },
+  "paragraph_3_bold": "調波融合(Harmonic Fusion)",
+  "chord_intro_separate_paragraph": true,
+  "paragraph_86": "これはそのままC E Gの各音の3倍位置(×3と×1/3)が現れただけの結果である。",
+  "paragraph_87": "スペクトル強度P(f)を足して調波融合評価を見てみる。",
+  "afterword": {
+    "source": "source/afterword.txt",
+    "images": [
+      "fundamental-perception-simulator.png",
+      "tonal-wave-web.png"
+    ],
+    "x_link": "https://x.com/Fmajorflatseven",
+    "image_behavior": "responsive, click to open original image"
+  },
+  "revision_23_text_edits": {
+    "そのオクターブ関係にある周波数すべてとの平均を計算して": "そのオクターブ関係にある周波数すべてとの平均(または単に合算)を計算して",
+    "そもそも倍音と和音の協和の関係自体が": "そもそも倍音と、和音の協和の関係自体が",
+    "今回式の紹介くらいしかできませんでしたが": "今回は式の紹介くらいしかできませんでしたが"
+  },
+  "afterword_boxed_property": "スペクトルの対数周波数上の反転が複素共役に対応する性質",
+  "afterword_bold_terms": [
+    "下方倍音がある意味で倍音列の逆であるというアイデア",
+    "ある固定された周波数を第n倍音に持つような周波数の列"
+  ],
+  "review_accepted_edits": {
+    "D G BつまりGメジャーコード": "マイナス側はD G BつまりGメジャーコード",
+    "調波極性評価": "調波融合評価",
+    "12平均律位置で近似すると、": "各12平均律音名の位置から±50 centの範囲で平均すると、",
+    "±180°の方向に向くことになる": "±180°に近い方向を向くことになる",
+    "みなさんで自身で": "皆さんご自身で",
+    "皆さんで自身で": "皆さんご自身で"
+  },
+  "review_retained": [
+    "使用回数にだいたい比例する",
+    "複素平面でP(f)と混ざる説明",
+    "ご拝読"
+  ],
+  "introduction_harmonics_major_link": "https://uriop-dogg.github.io/m2_music_math/M2-v10.2-JA-EN/index.html",
+  "favicon": "assets/images/wooly.png",
+  "languages": {
+    "ja": "index.html",
+    "en": "en.html"
+  },
+  "language_switch": "header and article title; preserve section/graph anchor on switch",
+  "english_terminology": {
+    "調波極性": "harmonic polarity",
+    "調波融合評価": "harmonic-fusion evaluation",
+    "調波極性ベクトル": "harmonic polarity vector",
+    "調波特性ベクトル": "harmonic characteristic vector",
+    "音名分布": "pitch-class distribution"
+  },
+  "english_interfaces": [
+    "assets/research-graphs-en.js",
+    "assets/harmonic-explorer-en.js"
+  ],
+  "english_notes": "Original app screenshots are retained unchanged. Audio and numerical engine are shared.",
+  "english_solfege_note": {
+    "before_paragraph": 98,
+    "text": "Notation note: In the examples below, do, re, mi, fa, sol, la, and ti denote relative positions 1–7 of a major scale, with do as the reference tonic, rather than fixed pitches. This is a movable-do use of solfège. For example, in C major they correspond to C, D, E, F, G, A, and B; in another key, the letter names change. A flat sign lowers the corresponding position (for example, mi♭ is the lowered third). These syllables indicate approximate scale positions here; the frequency ratios specify the exact tuning.",
+    "language": "en"
+  },
+  "application_urls": {
+    "Tonal Wave Web": "https://uriop-dogg.github.io/m2_apps/TonalWaveWeb/index.html",
+    "Fundamental Perception Simulator": "https://uriop-dogg.github.io/m2_apps/FundamentalPerceptionWeb/index.html"
+  }
+}

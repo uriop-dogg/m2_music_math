@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "bach": {
+      "path": "assets/audio/bach_sine_midi.wav",
+      "sha256": "b633f9692c2f624c82ccd156a0ecdd98b3b66bd1bb815e2290ea7cd833e7e080"
+    },
+    "chord": {
+      "path": "assets/audio/C_major_equal_amplitude.wav",
+      "sha256": "50ed2c1d29c6e816b8bb9d5b4b0f659c33218c0f23453b65151afd35d42db452"
+    },
+    "minor": {
+      "path": "assets/audio/C_minor_equal_temperament_equal_amplitude.wav",
+      "sha256": "925ea694ef066d48d1c782aa4b25416cc6d061892ac2056a603b18281282acd2"
+    }
+  },
+  "N": 32,
+  "weight": "1/n^2",
+  "W": 0.6141672628279243,
+  "tuning": "A4=440 Hz",
+  "window": "periodic Hann",
+  "window_seconds": 0.512,
+  "hop_fraction": 0.25,
+  "fft": "next power of 2 >= window length; zero padded",
+  "frame_centers": "0, hop, ... ceil((sample_count-1)/hop)*hop; zero padded at boundaries",
+  "P": "mean over all frames and channels of abs(FFT/window_sum)^2; one-sided, no factor of 2",
+  "interpolation": "linear in FFT frequency bins",
+  "P_reference_range": "C0 through min(C10, Nyquist); outside zero",
+  "evaluation_range": "C0..C10, 1 cent spacing",
+  "octave_aggregation": "10 octaves [C0,C10), average by default; sum option; complex components combined before modulus/phase",
+  "single_tone": "analytic Q(f0/n)=+1/n^2, Q(n*f0)=-1/n^2, n=2..32, v=1",
+  "reference_images": "design and displayed parameters only; window/hop/FFT scaling not specified in images, so exact numerical matching is not asserted",
+  "normalization_reference": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.ShortTimeFFT.scale_to.html",
+  "initial_viewport": "Audio pitch graphs: absolute curve value at least 0.01% of its maximum, plus 100-cent margin and semitone-rounded limits. Display only; no data removed. Pitch class graphs retain one octave."
+}

@@ -1,0 +1,75 @@
+/* Article layout: the previous reading-focused design, without audio UI. */
+:root{--article-accent:#366c91}
+html{scroll-padding-top:28px}
+.site-header{padding:22px 5%;min-height:0;align-items:center;background:#ffffffed}
+.site-header .brand{font-size:24px;letter-spacing:.035em}.brand span{display:block;color:#555;font-size:12px;letter-spacing:.12em}
+.edition{display:block;color:#555;font-size:12px;border:1px solid #ddd;padding:3px 10px;border-radius:20px}
+.layout{width:calc(100% - 48px);max-width:1180px;margin:0 auto;grid-template-columns:155px minmax(0,900px);gap:35px;padding:0}
+main{min-width:0;padding:0 42px;background:#fffffffa}
+.toc{top:26px;margin-top:54px;font-size:13px;line-height:1.65}.toc a{padding:7px 0}.toc a span{flex:0 0 26px;color:#6e7983}.toc a.active{color:#1c567e;font-weight:700}.toc a.active span{color:#1c567e}
+.article-title{padding:52px 0 28px;border-bottom:1px solid #d0d0d5}
+.article-title h1{font-size:clamp(28px,3.1vw,41px);line-height:1.65;letter-spacing:.025em;margin:12px 0 22px;text-wrap:pretty}
+.eyebrow{font-size:13px!important;letter-spacing:.09em}.byline{color:#444;font-size:14px}
+.chapter{padding-top:48px;padding-bottom:12px}.chapter-heading{gap:16px;align-items:baseline;margin:0 0 26px}.chapter-heading>span{color:#366c91;font-size:16px}.chapter-heading h2{font-size:26px;line-height:1.55}
+.prose{font-size:17px;line-height:2.05;color:#111116;overflow-wrap:break-word;margin:1.15em 0;line-break:strict}.prose.lead{font-size:17px;margin:30px 0 40px}
+.prose math{font-size:1.08em;margin:0 .13em;vertical-align:baseline}.prose math mfrac{font-size:1em}
+math{font-family:'Cambria Math','STIX Two Math','Latin Modern Math',math;color:#111116}
+.display-equation{margin:26px 0;padding:12px 0;gap:8px}.equation-scroll{overflow-x:auto;padding:12px 4px;max-width:100%}.equation-centered{min-width:max-content;width:100%;display:flex;justify-content:center}.equation-centered>math{font-size:1.32em!important;line-height:1.8}
+.display-equation>math{font-size:1.32em;max-width:100%;overflow-x:auto}.equation-condition{margin:3px 0;font-size:14px;color:#4d4d55}
+.relation-note{display:flex;gap:13px;border-left:2px solid #d0dce5;background:#f8fafc;padding:12px 18px;margin:18px 0}.relation-note>span{color:#366c91}.relation-note p{margin:0;line-height:1.9;font-size:17px}
+.relation-note math{font-size:1.08em;margin:0 .12em}
+.figure-slot{margin:28px 0 32px}.figure-pending{min-height:225px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:9px;background:#fafbfc;border:1px dashed #c5cdd5;border-radius:7px;padding:30px 22px;color:#4b5863;text-align:center}
+.figure-symbol{font-size:34px;color:#8dabbf;line-height:1}.figure-pending small{font-size:13px;color:#66727c}.figure-slot figcaption{font-size:13px;color:#606974;text-align:center;margin:10px 0}
+.figure-slot img{display:block;max-width:100%;height:auto;margin:0 auto}.figure-slot a:focus-visible{outline:2px solid #366c91}
+.note-ratio-table{margin:23px 0;overflow-x:auto}.note-ratio-table table{font-size:16px;width:100%;min-width:360px}.note-ratio-table th,.note-ratio-table td{padding:12px;text-align:center}.note-ratio-table th{white-space:nowrap}.note-ratio-table math{font-size:1.15em}
+.pending-note{font-size:14px;color:#666;border-left:2px solid #ddd;padding-left:12px}
+.article-background{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;opacity:.055;color:#366c91;font-size:90px}.article-background span{position:absolute}.article-background span:nth-child(1){top:14%;left:3%}.article-background span:nth-child(2){top:44%;right:3%;font-size:150px}.article-background span:nth-child(3){top:80%;left:7%}
+footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #ddd;margin-top:50px;padding:25px 0 45px;font-size:13px;color:#555}.footer-top a{text-decoration:none;color:#366c91}
+@media(max-width:850px){.layout{grid-template-columns:125px minmax(0,1fr);gap:20px;width:calc(100% - 32px)}main{padding:0 26px}.site-header .brand{font-size:21px}.toc{font-size:12px}}
+@media(max-width:640px){.site-header{padding:18px 20px}.site-header .brand{font-size:19px}.brand span{display:block}.edition{font-size:11px}.layout{display:block;width:auto;margin:0;padding:0 14px}main{padding:0 16px}.toc{position:static;margin:18px 0 0;padding:10px 16px;background:white}.toc summary{font-size:14px}.toc a{font-size:13px}.article-title{padding:30px 0 24px}.article-title h1{font-size:27px}.chapter{padding-top:38px}.chapter-heading h2{font-size:22px}.prose,.prose.lead,.relation-note p{font-size:16px}.figure-pending{min-height:180px;padding:22px 15px}.equation-centered>math{font-size:1.13em!important}.display-equation>math{font-size:1.13em}.relation-note{padding:11px 13px}.note-ratio-table{margin-left:-2px;margin-right:-2px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.toc,.site-header,.article-background,.footer-top{display:none}.layout{display:block;width:100%;margin:0}main{padding:0}.article-title{padding-top:0}.prose{font-size:11pt}.chapter{break-before:auto}.display-equation,.figure-slot{break-inside:avoid}.equation-scroll{overflow:visible}.chapter-heading{break-after:avoid}}
+
+/* Fit equations to their real available width, without a scroll container. */
+.display-equation{min-width:0;max-width:100%}
+.equation-scroll{overflow:visible;min-width:0;width:100%;box-sizing:border-box}
+.equation-centered{min-width:0;width:100%;max-width:100%}
+.equation-centered>math,.display-equation>math{overflow:visible;flex:0 0 auto}
+.article-introduction{margin:30px 0 40px}
+.article-introduction .prose.lead{margin:0 0 1.5em}
+.article-introduction .prose.lead:last-child{margin-bottom:0}
+.first-term{font-weight:750;color:#08080c}
+.prose a{color:#28648f;text-underline-offset:.2em}
+.harmonic-explorer{margin:2.5em 0;padding:24px;border:1px solid #d4d7df;border-radius:12px;background:#fff;color:#14151a}
+.harmonic-explorer figcaption{font-size:1.15rem;font-weight:700}
+.harmonic-help,.harmonic-note{font-size:.85rem;line-height:1.8}
+.harmonic-controls{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:20px 0}
+.harmonic-controls button,.harmonic-controls select,.harmonic-volume summary{font:inherit;font-size:.85rem;color:#17191f;background:#f5f6fa;border:1px solid #b8bfcd;border-radius:6px;padding:7px 12px;cursor:pointer}
+.harmonic-volume{position:relative}.harmonic-volume label{position:absolute;z-index:2;right:0;top:42px;background:white;border:1px solid #b8bfcd;padding:12px;border-radius:6px;box-shadow:0 4px 15px #0002;white-space:nowrap}
+.harmonic-axis,.harmonic-x{font-size:.8rem;color:#424854}.harmonic-x{text-align:center}
+.harmonic-scroll{overflow-x:auto;padding:10px 0 0}.harmonic-chart{position:relative;min-width:480px;padding-left:28px}
+.harmonic-ticks{position:absolute;left:0;top:0;height:180px;display:flex;flex-direction:column;justify-content:space-between;font-size:12px;line-height:1}
+.harmonic-bars{display:grid;grid-template-columns:repeat(16,minmax(0,1fr));gap:5px;background:linear-gradient(to bottom,#dfe3eb 1px,transparent 1px) 0 0/100% 90px}
+.harmonic-bar{display:flex;flex-direction:column;align-items:stretch;gap:7px;min-width:0;padding:0 2px 4px;border:0;border-radius:4px;background:transparent;color:#20242c;font:inherit;font-size:12px;cursor:pointer}
+.harmonic-track{height:180px;display:flex;align-items:flex-end;border-bottom:1px solid #4a5361}
+.harmonic-fill{display:block;width:100%;background:#c6ced9;border:1px solid #939fae;border-bottom:0;box-sizing:border-box;border-radius:3px 3px 0 0;transition:background .15s}
+.harmonic-bar[aria-pressed="true"] .harmonic-fill{background:#577fd2;border-color:#345cad}
+.harmonic-bar[aria-pressed="true"]{color:#204b9a;font-weight:700}
+.harmonic-bar:hover{background:#eff3fa}.harmonic-explorer :focus-visible{outline:2px solid #315eb6;outline-offset:3px}
+.harmonic-status{font-size:.85rem;min-height:1.8em;margin:12px 0 0}.harmonic-note{color:#535965;margin-bottom:0}
+@media(max-width:640px){.harmonic-explorer{padding:16px 12px}.harmonic-controls{gap:8px}}
+@media print{.harmonic-controls,.harmonic-status{display:none}.harmonic-chart{min-width:0}}
+
+.article-audio{margin:1.25em 0 1.5em}.article-audio audio{display:block;width:100%;max-width:540px}
+
+.afterword-image{margin:24px 0 32px}.afterword-image a{display:block}.afterword-image img{display:block;width:100%;height:auto;border:1px solid #d2d7de;border-radius:6px;box-sizing:border-box}.afterword-image a:focus-visible{outline:2px solid #315eb6;outline-offset:4px}
+
+.afterword-property{margin:20px 0;padding:18px 22px;border:1px solid #ccd5df;border-radius:6px;background:#f8fafc;color:#14151a;line-height:1.9}
+.site-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.language-links{font-size:14px;line-height:1.7;color:#515a66;margin:14px 0;white-space:nowrap}
+.site-header>.language-links{margin:0}.language-links a{color:#285b84;text-underline-offset:3px}.language-links [aria-current="page"]{font-weight:700;color:#11151a}
+html[lang="en"] .prose,html[lang="en"] .prose.lead{line-height:1.85;overflow-wrap:break-word}
+html[lang="en"] .article-title h1{font-size:clamp(27px,3.1vw,39px);line-height:1.4}
+html[lang="en"] .toc a{font-size:12px;line-height:1.5;overflow-wrap:break-word}
+html[lang="en"] .phase-legend{font-size:9px;gap:5px}
+@media(max-width:640px){html[lang="en"] .phase-legend{font-size:8px}html[lang="en"] .article-title h1{font-size:27px}}

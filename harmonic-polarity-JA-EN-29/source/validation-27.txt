@@ -1,0 +1,8 @@
+Bilingual validation
+Japanese prose and formulas unchanged from revision 26.
+115 MathML expressions preserved; only the explanatory integer-condition text was translated. Inline math order follows English grammar where needed.
+Both pages: 17 graphs, 3 audio players, 16 harmonic controls, unique IDs, matching anchors, all referenced local assets present.
+No untranslated Japanese UI or prose in English HTML except the Japanese-language switch and original screenshots.
+Japanese and English graph controllers passed mock DOM/Canvas tests. English audio controller passed Web Audio mock tests. Language-switch tests passed in both directions.
+Numerical engine and raw audio are shared, not copied or recalculated differently by language.
+Actual browser rendering, playback and touch interaction were not verified.
