@@ -1,0 +1,233 @@
+:root{color-scheme:light;--ink:#111116;--blue:#366c91;--red:#ae5459;--line:#dce0e5}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;color:var(--ink);background:#fff;font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",Meiryo,sans-serif}a{color:var(--blue);text-underline-offset:.2em}button,input{font:inherit}button{cursor:pointer;color:var(--ink);background:white;border:1px solid #bbc6d0;border-radius:7px;padding:9px 13px}button:hover{background:#f1f6fa;border-color:var(--blue)}:focus-visible{outline:2px solid #2a70b4;outline-offset:4px}.site-header{padding:24px 5%;border-bottom:1px solid #eee;display:flex;align-items:baseline;gap:18px}.brand{font-size:23px;font-weight:700;color:#16161b;text-decoration:none}.site-header>span{font-size:12px;color:#555}.layout{display:grid;grid-template-columns:155px minmax(0,900px);gap:35px;max-width:1180px;width:calc(100% - 48px);margin:auto}.toc{position:sticky;top:25px;align-self:start;padding-top:45px;font-size:13px;line-height:1.7}.toc summary{margin-bottom:12px;cursor:pointer}.toc a{display:flex;gap:9px;color:#535760;text-decoration:none;padding:8px 0}.toc a span{color:#708294}.toc a.active{color:#244f70;font-weight:700}main{min-width:0;padding:0 42px;background:#fffffff2}.article-title{padding:52px 0 28px;border-bottom:1px solid #d0d0d5}.eyebrow{font-size:13px;color:var(--blue);letter-spacing:.1em}h1{font-size:clamp(32px,4vw,48px);line-height:1.65;margin:18px 0}h1>span{display:block;font-size:clamp(20px,2.5vw,28px);margin-top:16px}.byline{font-size:14px;color:#444}section{padding-top:48px}.chapter-heading{display:flex;gap:16px;align-items:baseline;margin-bottom:25px}.chapter-heading>span{color:var(--blue)}h2{font-size:25px;line-height:1.65;margin:0}.prose{font-size:17px;line-height:2.05;margin:1.2em 0;overflow-wrap:anywhere;line-break:strict}math{font-family:"Cambria Math","STIX Two Math",math;color:#101016}math mfrac{font-size:1em}.prose math{font-size:1.06em;margin:0 .15em}.equation{font-size:21px;line-height:2.4;text-align:center;margin:28px 0;overflow-wrap:anywhere}.equation math{display:inline math;margin:0 .12em}.equation>math[display=block]{display:block math;font-size:1.2em}figure{margin:32px 0}figcaption,.small{font-size:13px;line-height:1.8;color:#545c65}figure>figcaption:first-child{font-size:16px;font-weight:700;color:#1b2733;margin-bottom:15px}.post-image img{display:block;max-width:100%;height:auto;border:1px solid #e3e5e8;border-radius:8px}.sound-block{margin:28px 0;padding:20px 18px;border:1px solid var(--line);border-radius:10px;background:#fff}.base{font-size:12px;color:#48525c;display:inline-flex;align-items:center;gap:6px;margin:0 0 16px}.base input{width:80px;padding:5px;border:1px solid #c9cfd7;border-radius:4px;background:white}.notes{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.tone{min-width:49px;min-height:48px;font-size:18px;transition:background .15s,box-shadow .15s}.tone math{pointer-events:none}.tone.sounding,.chord.sounding{color:#102f48;border-color:var(--blue);background:#d8eaf7;box-shadow:0 0 0 2px #366c9120}.negative .tone.sounding{background:#f5dfe3;border-color:var(--red)}.sequence{display:block;margin-top:18px;font-size:13px}.chords{display:flex;flex-wrap:wrap;gap:12px}.chord{font-size:15px;line-height:1.7}.chord-ratios{display:flex;gap:12px;justify-content:center;margin-top:8px;font-size:19px}.table-wrap{overflow-x:auto;margin:28px 0;padding-bottom:4px}table{border-collapse:collapse;width:100%;font-size:14px}caption{text-align:left;font-size:15px;font-weight:700;line-height:1.7;margin-bottom:14px}th,td{padding:12px 6px;text-align:center;border-bottom:1px solid var(--line);white-space:nowrap}th{font-weight:600;color:#333e4a}thead{background:#f5f7fa}tbody th{text-align:left;font-size:12px}td .tone{font-size:17px;padding:7px;min-width:43px}.table-wrap .chord-ratios{display:none}.harmonic-grid{table-layout:fixed;min-width:540px}.harmonic-grid td{height:48px}.harmonic-grid th{font-size:12px;width:12.5%}.harmonic-grid caption span{float:right}.harmonic-grid td.unit-row{background:#edf4f8}.harmonic-grid .tone{width:100%;min-width:0;font-size:16px;border-color:#d9e0e6}.harmonic-grid .tone:disabled{opacity:.35;cursor:not-allowed}.grid-scroll{overflow:auto}.grid-inner{position:relative;min-width:540px}.trace{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.lattice>figcaption{margin-top:12px}.local-off{font-size:12px;float:right}.helix-box{border:1px solid var(--line);border-radius:8px;padding:10px}#helix{display:block;width:100%;height:auto;touch-action:none;cursor:grab}#helix:active{cursor:grabbing}.helix-box figcaption{text-align:center}.helix-box button{font-size:12px;padding:4px 9px;margin-left:12px}#pitch-circle{width:100%;height:auto;max-height:530px;display:block}.mapping{display:flex;justify-content:center;gap:55px;margin:30px 0}.mapping>div{display:flex;flex-direction:column;align-items:center;gap:15px;font-size:23px}.mapping span{font-size:13px;color:#67727e}.speech{display:flex;align-items:center;gap:15px;margin:30px 0}.speech>span{font-size:60px;color:#616b74}.speech blockquote{margin:0;padding:20px;border:1px solid #c6cdd5;border-radius:18px;font-size:16px;line-height:1.8}.app-card{padding:22px;border:1px solid var(--line);border-radius:8px;margin:26px 0}.audio-dock{position:fixed;right:16px;top:14px;z-index:20;display:flex;gap:5px;background:#fff;border:1px solid #d7dce2;padding:4px;border-radius:9px;box-shadow:0 3px 15px #0001}.audio-dock summary{cursor:pointer;list-style:none;padding:5px 10px;font-size:22px}.audio-dock button{border:0;font-size:14px;padding:8px}.audio-dock label{position:absolute;right:0;top:51px;padding:18px;background:white;border:1px solid var(--line);border-radius:8px;white-space:nowrap;font-size:13px}.audio-dock input{width:130px;accent-color:var(--blue)}#audio-status:not(:empty){position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:25;max-width:90vw;padding:12px 20px;background:#182b3b;color:white;border-radius:8px;font-size:13px}.background{position:fixed;inset:0;pointer-events:none;z-index:-1;overflow:hidden;color:#497ba8;opacity:.055}.background span{position:absolute;font-size:100px;left:3%;top:15%}.background span:nth-child(2){left:auto;right:2%;top:45%;font-size:170px}.background span:nth-child(3){left:6%;top:80%}footer{display:flex;justify-content:space-between;border-top:1px solid var(--line);margin-top:50px;padding:25px 0 45px;font-size:13px}@media(max-width:850px){.layout{grid-template-columns:115px minmax(0,1fr);gap:18px;width:calc(100% - 28px)}main{padding:0 22px}.toc{font-size:12px}}@media(max-width:640px){.site-header{padding:20px 14px;padding-right:100px}.brand{font-size:17px}.site-header>span{display:none}.layout{display:block;width:100%;padding:0 14px}main{padding:0 8px}.toc{position:static;padding:15px 8px;border-bottom:1px solid var(--line)}.toc a{font-size:12px;padding:4px 0}.article-title{padding-top:28px}h1{font-size:34px}h1>span{font-size:21px}h2{font-size:22px}.prose{font-size:16px}.sound-block{padding:16px 12px}.notes{gap:6px}.tone{font-size:17px;min-width:42px}.equation{font-size:18px}.audio-dock{right:10px;top:12px}section{padding-top:36px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}@media print{.toc,.audio-dock,.background,.base,.sequence,.local-off{display:none}.layout{display:block;width:100%}main{padding:0}.prose{font-size:11pt}.table-wrap,.grid-scroll{overflow:visible}.sound-block{break-inside:avoid}.tone{border:0}.site-header{padding:0 0 15px}section{padding-top:25px}}
+.equation{font-family:"Cambria Math","Yu Mincho",serif}.equation .small{font-family:"Yu Gothic",Meiryo,sans-serif}.audio-dock summary svg{display:block;width:24px;height:24px}
+/* Odd harmonics form the base; only upward octave relationships are shown. */
+.harmonic-grid{min-width:620px;font-size:18px;border-collapse:separate;border-spacing:4px 5px}
+.harmonic-grid th{width:auto;text-align:center;font-size:13px;border:0}
+.harmonic-grid th:first-child{width:76px}
+.harmonic-grid th small{display:block;font-size:12px;font-weight:400;color:#667888;margin-top:3px}
+.harmonic-grid thead{background:transparent}
+.harmonic-grid thead th{padding:8px 2px;color:#47647a}
+.harmonic-grid td{height:59px;padding:5px 2px;border:0;border-radius:5px;background:#f3f6f9}
+.harmonic-grid td:nth-child(2n){background:#eaf0f5}
+.harmonic-grid td.unit-row{background:#dceaf4;box-shadow:inset 0 -3px #8baac2;font-weight:700}
+.grid-inner{min-width:620px}
+.harmonic-grid .grid-number{position:relative;z-index:2;display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;border-radius:6px}
+.harmonic-grid td.trace-column{background:#e2edf5}
+.harmonic-grid td.trace-current .grid-number{background:#345f80;color:white;box-shadow:0 2px 7px #254b7330;min-width:38px;min-height:38px}
+.harmonic-grid td.trace-current math{color:white}
+.trace-controls{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+.trace-controls label{font-size:13px;display:flex;align-items:center;gap:10px;flex:1;min-width:180px}
+.trace-step{accent-color:#345f80;min-width:100px;width:100%}
+.trace-controls button{padding:7px 12px}.trace-controls button:disabled{opacity:.35;cursor:default}
+.trace-readout{display:block;width:100%;text-align:center;font-size:21px;font-family:'Cambria Math',math;color:#244c6b;min-height:30px}
+@media(max-width:640px){.harmonic-grid{min-width:570px;border-spacing:3px 4px;font-size:17px}.grid-inner{min-width:570px}.harmonic-grid td{height:53px}.harmonic-grid th:first-child{width:65px}}
+/* Revision 03: darker typography and clearly separated chord controls. */
+body{font-weight:500;color:#111116}
+.prose,.byline,.site-header>span,.small,figcaption,.base,.toc a,th,.harmonic-grid th small{color:#22232a}
+.prose{font-weight:500}.harmonic-grid thead th{color:#25394b}
+button{font-weight:500}.grid-number math{font-weight:500}
+[data-source-paragraph="61"] .chords{justify-content:center;gap:30px;padding:12px 0}
+[data-source-paragraph="61"] .chord{min-width:150px;padding:18px 22px;border:1.5px solid #8b9daf;border-radius:9px;background:#fcfdff}
+[data-source-paragraph="61"] .chord-ratios{margin-top:15px;gap:18px;font-size:22px}
+[data-source-paragraph="61"] .chord.sounding{background:#d8eaf7;border-color:#366c91}
+.rolling-notes{display:flex;justify-content:center;gap:12px;flex-wrap:nowrap}
+.roll-note{flex:1;max-width:104px;min-width:0;padding:15px 6px;font-size:18px;border:1px solid #91a4b6;background:#fcfdff}
+.roll-note .chord-ratios{font-size:21px;margin-top:12px}
+.roll-note.sounding{background:#d8eaf7;border-color:#366c91;box-shadow:inset 0 -3px #366c91;color:#102f48}
+@media(max-width:640px){[data-source-paragraph="61"] .chords{gap:20px}[data-source-paragraph="61"] .chord{min-width:135px;padding:16px}.rolling-notes{gap:7px}.roll-note{font-size:16px}.roll-note .chord-ratios{font-size:19px}}
+/* Ratio transformations: distinct stages and operations attached to arrows. */
+.roman-chord{text-align:center;margin:32px 0 35px;font-family:'Times New Roman','Yu Mincho',serif}
+.roman-chord>div{font-size:55px;line-height:1.25;font-weight:500;color:#111116}
+.roman-chord>div>span{font-size:.62em;margin-left:4px}
+.roman-chord>small{display:block;font-size:21px;color:#777b82;margin-top:7px;font-weight:400}
+.ratio-diagram{margin:32px 0 24px}
+.ratio-flow{display:flex;align-items:center;justify-content:center;gap:10px}
+.ratio-stage{min-width:0;flex:1;text-align:center;background:#f7f9fb;border:1px solid #d7e0e7;border-radius:9px;padding:17px 9px 20px}
+.stage-label{display:block;font-size:12px;font-weight:500;line-height:1.7;color:#3d4c59;min-height:21px;margin-bottom:12px}
+.ratio-stage>math{font-size:22px;display:inline math}
+.ratio-arrow{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:36px}
+.arrow-label{font-size:11px;line-height:1.7;text-align:center;color:#495968}
+.arrow-label math{font-size:16px}.arrow-symbol{font-family:'Cambria Math',serif;font-size:30px;line-height:1.2;color:#57778d}.arrow-symbol:before{content:'→'}.equivalent .arrow-symbol:before{content:'⇔'}
+.diagram-note{font-size:13px;line-height:1.9;font-weight:400;color:#71767d;margin:14px 4px 30px}.diagram-note math{color:inherit}
+[data-source-paragraph="75"] .ratio-flow{gap:6px}[data-source-paragraph="75"] .ratio-stage{padding-left:5px;padding-right:5px}[data-source-paragraph="75"] .ratio-stage>math{font-size:21px}[data-source-paragraph="75"] .ratio-arrow{min-width:26px}
+@media(max-width:640px){.roman-chord>div{font-size:49px}}
+/* Revision 10: match the reading typography and spacing of the preceding article. */
+body{font-family:'Yu Gothic',Meiryo,sans-serif;font-weight:500;color:#09090c;background:#f7f7f9}
+main{background:#fffffffa}
+.prose{color:#111116;font-size:17px;line-height:2.05;margin:1.15em 0;overflow-wrap:break-word}
+.prose math{font-size:1.08em;margin:0 .13em;vertical-align:baseline}
+math{font-family:'Cambria Math','STIX Two Math','Latin Modern Math',math}
+.site-header{padding-top:22px;padding-bottom:22px;align-items:center;background:#ffffffed}
+.brand{font-size:24px;letter-spacing:.035em;color:#09090c}
+.article-title h1{letter-spacing:.025em;text-wrap:pretty}
+.byline{color:#444}
+section{padding-top:48px;padding-bottom:12px}
+.chapter-heading{margin:0 0 26px;gap:16px}
+.chapter-heading>span{font-size:16px;flex:0 0 auto}
+.chapter-heading h2{font-size:26px;line-height:1.55;color:#09090c}
+.toc{top:26px;padding-top:0;margin-top:54px;line-height:1.65}
+.toc a{padding:7px 0;color:#29292f}
+.toc a span{flex:0 0 26px;color:#6e7983}
+.toc a.active,.toc a.active span{color:#1c567e}
+.equation{margin:26px 0;padding:12px 0}
+.ratio-diagram{container-type:inline-size;margin:28px 0 32px}
+.ratio-stage{background:transparent;border:0;border-radius:0;padding-top:12px;padding-bottom:12px}
+.stage-label{color:#50505a;font-weight:400}
+.arrow-label{color:#4d4d55;font-weight:400;font-size:12px}
+.arrow-symbol{color:#667c8d}
+.diagram-note{color:#71767d;font-weight:400}
+.sound-block{border-color:#d4d7df;background:#fff}
+@container(max-width:580px){.stages-4{flex-direction:column!important;gap:9px!important}.stages-4 .ratio-stage{width:100%;max-width:330px;flex:auto}.stages-4 .ratio-arrow{min-height:42px}.stages-4 .arrow-symbol:before{content:'⇕'}}
+@container(max-width:520px){.stages-3{flex-direction:column;gap:9px}.stages-3 .ratio-stage{width:100%;max-width:330px;flex:auto}.stages-3 .ratio-arrow{min-height:48px;position:relative;padding:0 90px}.stages-3 .arrow-label{position:absolute;left:calc(50% + 22px);white-space:nowrap;text-align:left;top:50%;transform:translateY(-50%)}.stages-3 .arrow-symbol:before{content:'↓'}}
+@container(max-width:380px){.stages-2{flex-direction:column;gap:9px}.stages-2 .ratio-stage{width:100%;max-width:330px;flex:auto}.stages-2 .ratio-arrow{min-height:48px;position:relative;padding:0 90px}.stages-2 .arrow-label{position:absolute;left:calc(50% + 22px);white-space:nowrap;text-align:left;top:50%;transform:translateY(-50%)}.stages-2 .arrow-symbol:before{content:'↓'}}
+@media(max-width:850px){.layout{grid-template-columns:125px minmax(0,1fr);gap:20px;width:calc(100% - 32px)}main{padding:0 26px}.brand{font-size:21px}}
+@media(max-width:640px){.site-header{padding:18px 100px 18px 20px}.brand{font-size:19px}.layout{display:block;width:auto;margin:0;padding:0 14px}main{padding:0 16px}.toc{margin:18px 0 0;padding:10px 16px;background:white}.toc summary{font-size:14px}.toc a{font-size:13px}.article-title{padding:30px 0 24px}.chapter-heading h2{font-size:22px}.prose{font-size:16px}section{padding-top:38px}}
+@media print{body{background:white}.layout{display:block;width:100%}main{padding:0}.prose{font-size:11pt}.toc,.site-header{display:none}}
+/* Revision 11: the previous article's header and language-navigation positions. */
+.site-header{justify-content:space-between;flex-wrap:wrap;gap:12px;padding-right:max(120px,5%)}
+.brand{line-height:1.95;font-weight:800}
+.brand>span{display:block;color:#555;font-size:12px;letter-spacing:.12em;font-weight:400}
+.language-links{font-size:14px;line-height:1.7;color:#515a66;margin:14px 0;white-space:nowrap;font-weight:400}
+.site-header>.language-links{margin:0}
+.language-links [aria-current=page]{font-weight:700;color:#11151a}
+.language-pending{color:#69727b}.language-pending>span{font-size:11px}
+.article-title .eyebrow{color:#50505a;font-weight:700;letter-spacing:.09em}
+.article-title h1{font-family:'Yu Mincho','Hiragino Mincho ProN',serif;font-size:clamp(28px,3.1vw,41px);line-height:1.65;letter-spacing:.025em;margin:12px 0 22px}
+.article-title h1>span{font-size:inherit;line-height:inherit;margin-top:12px}
+.article-title .byline{margin-top:30px}
+@media(max-width:640px){.site-header{padding:18px 110px 18px 20px}.brand{font-size:19px}.article-title h1{font-size:27px}.site-header>.language-links{white-space:normal}.language-links{font-size:13px}}
+/* Revision 12: axes belong to the two explanatory tables. */
+.integrated-axes .axis-col{width:34px}.integrated-axes .octave-col{width:66px}
+.integrated-axes th:first-child{width:auto}
+.integrated-axes thead th{background:#eaf0f5;color:#25394b}
+.integrated-axes thead .axis-x{text-align:center;padding:8px 0 3px;border-bottom:1px solid #ccd9e3;font-size:14px;letter-spacing:.06em}
+.integrated-axes .axis-y{background:#eaf0f5;border-radius:5px;vertical-align:middle;padding:8px 3px;color:#25394b}
+.axis-up{display:block;font-size:27px;line-height:1.2;margin-bottom:10px}
+.axis-y-label{display:inline-block;writing-mode:vertical-rl;font-size:13px;letter-spacing:.1em}
+/* Revision 14: the original article's floating, centered ratio display. */
+.ratio-display{position:relative;border:0;border-radius:0;background:transparent;padding:52px 0 20px;margin:28px 0 32px}
+.ratio-display>figcaption:first-child{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;margin:0}
+.ratio-display .base{position:absolute;right:0;top:0;font-size:11px;font-weight:400;color:#555;margin:0;gap:4px}
+.ratio-display .base input{width:67px;font-size:11px;padding:3px 4px;border-color:#dce0e5;background:#fff}
+.ratio-display .notes{justify-content:center;gap:16px;padding:9px 0}
+.ratio-display .tone{display:inline-flex;align-items:center;justify-content:center;min-width:55px;min-height:68px;padding:9px 13px;margin:3px 4px;font-size:23px;background:white;color:#111116;border:1px solid #e2dce7;border-radius:9px;box-shadow:0 7px 15px #34304312;animation:ratio-float 4.8s ease-in-out infinite}
+.ratio-display .tone:nth-child(3n+2){animation-delay:-1.6s;border-color:#d0e0ea}
+.ratio-display .tone:nth-child(3n){animation-delay:-3.2s;border-color:#e9d5df}
+.ratio-display .tone math{font-size:1.14em;color:inherit}
+.ratio-display .tone:hover,.ratio-display .tone:focus-visible{animation-play-state:paused;background:#faf6fb;border-color:#a879aa;box-shadow:0 9px 20px #34304320}
+.ratio-display .tone.sounding{background:#f3eaf6;border-color:#b786bf;color:#6b346a}
+@keyframes ratio-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media(max-width:720px){.ratio-display .notes{gap:10px}.ratio-display .tone{min-width:44px;min-height:60px;font-size:20px;padding:8px 11px;margin:3px 2px}}
+@media(prefers-reduced-motion:reduce){.ratio-display .tone{animation:none}}
+/* Revision 15: a reading-only tuning comparison, with paired cents rows. */
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) table{font-size:16px;min-width:580px;background:white;border-top:1px solid #cdd7e0;border-bottom:1px solid #cdd7e0}
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) caption{font-size:16px;margin-bottom:16px}
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) thead th{background:#eef3f7;color:#273947;padding:13px 9px;font-size:14px}
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) tbody th{font-size:13px;padding:16px 12px}
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) td{padding:17px 10px;text-align:center;font-variant-numeric:tabular-nums}
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) math{font-size:21px}
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) tbody tr:nth-child(2)>*,:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) tbody tr:nth-child(4)>*{border-bottom:0;padding-bottom:8px}
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) tbody tr:nth-child(3)>*,:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) tbody tr:nth-child(5)>*{font-size:12px;color:#5c6670;font-weight:400;padding-top:5px;padding-bottom:15px}
+:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) tbody tr:nth-child(4),:is([data-source-paragraph="56"],[data-source-paragraph="128"],.negative-three-table) tbody tr:nth-child(5){background:#f7fafc}
+/* Revision 17: floating chord pads; static raised boxes for transformations. */
+[data-source-paragraph="61"] .sound-block,[data-source-paragraph="65"] .sound-block{border:0;border-radius:0;background:transparent;padding:22px 0;margin:28px 0 32px}
+[data-source-paragraph="61"] .chord,[data-source-paragraph="65"] .roll-note{background:#fff;color:#111116;border:1px solid #e2dce7;border-radius:10px;box-shadow:0 7px 15px #34304312;animation:ratio-float 4.8s ease-in-out infinite}
+[data-source-paragraph="61"] .chord:nth-child(3n+2),[data-source-paragraph="65"] .roll-note:nth-child(3n+2){border-color:#d0e0ea;animation-delay:-1.6s}
+[data-source-paragraph="61"] .chord:nth-child(3n),[data-source-paragraph="65"] .roll-note:nth-child(3n){border-color:#e9d5df;animation-delay:-3.2s}
+[data-source-paragraph="61"] .chord:hover,[data-source-paragraph="61"] .chord:focus-visible,[data-source-paragraph="65"] .roll-note:hover,[data-source-paragraph="65"] .roll-note:focus-visible{animation-play-state:paused;border-color:#a879aa;background:#faf6fb;box-shadow:0 9px 20px #34304320}
+[data-source-paragraph="61"] .chord.sounding,[data-source-paragraph="65"] .roll-note.sounding{background:#f3eaf6;border-color:#b786bf;color:#6b346a;box-shadow:0 7px 15px #34304312}
+[data-source-paragraph="61"] .chord.sounding math,[data-source-paragraph="65"] .roll-note.sounding math{color:inherit}
+.ratio-stage{background:#fff;border:1px solid #dce2e8;border-radius:16px;padding:20px 12px 23px;box-shadow:0 5px 14px #26364a0a}
+.stage-label{color:#505965;margin-bottom:15px}
+@media(prefers-reduced-motion:reduce){[data-source-paragraph="61"] .chord,[data-source-paragraph="65"] .roll-note{animation:none}}
+
+/* Revision 18: scale playback underneath the floating ratio row. */
+.ratio-display .sequence{margin:22px auto 0;font-size:13px}
+/* Revision 19: numbered scale pads and chapter 04 chord pads. */
+.numbered-scale>figcaption:first-child{position:static;width:auto;height:auto;clip-path:none;overflow:visible;white-space:normal;font-size:15px;margin:0 0 18px;text-align:center;color:#303744}
+.numbered-scale .tone{flex-direction:column;gap:10px;min-height:91px}
+.numbered-scale .note-label{font-family:'Yu Gothic',Meiryo,sans-serif;font-size:15px;line-height:1.2;color:#626575;font-weight:400}
+.numbered-scale .tone.sounding .note-label{color:inherit}
+:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .sound-block{border:0;background:transparent;padding:22px 0;margin:28px 0 32px}
+:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chords{justify-content:center;gap:30px;padding:12px 0}
+:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chord{min-width:130px;padding:18px 22px;background:white;border:1px solid #e2dce7;border-radius:10px;box-shadow:0 7px 15px #34304312;animation:ratio-float 4.8s ease-in-out infinite}
+:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chord:nth-child(2){border-color:#d0e0ea;animation-delay:-1.6s}
+:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chord:nth-child(3){border-color:#e9d5df;animation-delay:-3.2s}
+:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chord-ratios{font-size:22px;gap:15px;margin-top:14px}
+:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chord:hover,:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chord:focus-visible{animation-play-state:paused;border-color:#a879aa;background:#faf6fb}
+:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chord.sounding{background:#f3eaf6;border-color:#b786bf;color:#6b346a}
+@media(max-width:640px){:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chords{gap:20px}.numbered-scale .tone{min-height:83px}}
+@media(prefers-reduced-motion:reduce){:is([data-source-paragraph="138"],[data-source-paragraph="140"]) .chord{animation:none}}
+/* Revision 22: all seven chords, then a reference table and their root scale. */
+.all-diatonic{overflow-x:auto;padding:7px 0 14px;margin:25px 0}
+.all-diatonic .sound-block{border:0;background:transparent;padding:12px 5px;margin:0}
+.all-diatonic .chords{display:grid;grid-template-columns:repeat(7,minmax(94px,1fr));gap:12px;min-width:730px;padding:10px 0 15px}
+.all-diatonic .chord{padding:17px 8px;background:white;border:1px solid #e2dce7;border-radius:10px;box-shadow:0 7px 15px #34304312;animation:ratio-float 4.8s ease-in-out infinite;font-size:15px}
+.all-diatonic .chord:nth-child(3n+2){border-color:#d0e0ea;animation-delay:-1.6s}.all-diatonic .chord:nth-child(3n){border-color:#e9d5df;animation-delay:-3.2s}
+.all-diatonic .chord-ratios{gap:9px;font-size:20px;margin-top:14px}
+.all-diatonic .chord:hover,.all-diatonic .chord:focus-visible{animation-play-state:paused;background:#faf6fb;border-color:#a879aa}
+.all-diatonic .chord.sounding{background:#f3eaf6;border-color:#b786bf;color:#6b346a}
+.diatonic-table table{min-width:580px;background:white;font-size:15px;border-top:1px solid #cdd7e0;border-bottom:1px solid #cdd7e0}
+.diatonic-table thead th{font-size:12px;background:#eef3f7;padding:13px 8px}
+.diatonic-table tbody th{font-size:15px;text-align:center}.diatonic-table td{padding:17px 10px}.diatonic-table tbody tr:nth-child(even){background:#f8fafc}
+.diatonic-table math{font-size:20px}.diatonic-table td:nth-child(5),.diatonic-table thead th:nth-child(5){border-left:1px solid #dce2e8}
+@media(prefers-reduced-motion:reduce){.all-diatonic .chord{animation:none}}
+/* Revision 27: evenly spaced harmonic and subharmonic sequences. */
+.frequency-series{margin:28px 0 32px;padding:18px 20px 25px;border:1px solid #dce2e8;border-radius:16px;background:#fff;box-shadow:0 5px 14px #26364a0a}
+.frequency-series>figcaption:first-child{font-size:13px;font-weight:500;color:#505965;text-align:left;margin:0 0 20px}
+.frequency-terms{display:grid;grid-template-columns:repeat(6,minmax(0,1fr)) 24px;align-items:center;gap:12px;text-align:center;min-height:56px}
+.frequency-terms>math{font-size:24px;justify-self:center;white-space:nowrap;color:#111116}
+.series-ellipsis{color:#66717a;font-size:23px}
+@media(max-width:720px){.frequency-series{padding:16px 10px 22px}.frequency-terms{gap:7px;grid-template-columns:repeat(6,minmax(0,1fr)) 16px}.frequency-terms>math{font-size:20px}}
+@media(max-width:450px){.frequency-terms{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:20px}.series-ellipsis{grid-column:1/-1;font-size:20px}.frequency-terms>math{font-size:22px}}
+/* Revision 28: the remaining chapter 05 listening controls. */
+[data-source-paragraph="171"] .sound-block{border:0;background:transparent;padding:20px 0}
+[data-source-paragraph="171"] .chords{justify-content:center;gap:24px}
+[data-source-paragraph="171"] .chord{min-width:125px;padding:18px 17px;background:white;border:1px solid #e2dce7;border-radius:10px;box-shadow:0 7px 15px #34304312;animation:ratio-float 4.8s ease-in-out infinite}
+[data-source-paragraph="171"] .chord-ratios{font-size:22px;gap:13px;margin-top:14px}
+#section-5 .table-wrap .tone{background:white;border:1px solid #e2dce7;border-radius:9px;box-shadow:0 7px 15px #34304312;animation:ratio-float 4.8s ease-in-out infinite;margin:4px 2px;min-height:60px;font-size:21px;padding:9px 12px}
+[data-source-paragraph="171"] .chord:nth-child(3n+2),#section-5 .table-wrap td:nth-child(3n+2) .tone{border-color:#d0e0ea;animation-delay:-1.6s}
+[data-source-paragraph="171"] .chord:nth-child(3n),#section-5 .table-wrap td:nth-child(3n) .tone{border-color:#e9d5df;animation-delay:-3.2s}
+[data-source-paragraph="171"] .chord:hover,[data-source-paragraph="171"] .chord:focus-visible,#section-5 .table-wrap .tone:hover,#section-5 .table-wrap .tone:focus-visible{animation-play-state:paused;border-color:#a879aa;background:#faf6fb}
+[data-source-paragraph="171"] .chord.sounding,#section-5 .table-wrap .tone.sounding{background:#f3eaf6;border-color:#b786bf;color:#6b346a}
+@media(prefers-reduced-motion:reduce){[data-source-paragraph="171"] .chord,#section-5 .table-wrap .tone{animation:none}}
+.app-introduction{margin:28px 0 32px}.app-introduction>figcaption:first-child{font-size:17px;margin-bottom:15px}.app-introduction>a{display:block}.app-introduction img{display:block;width:100%;height:auto;border:1px solid #d2d7de;border-radius:7px}.app-introduction>a:focus-visible{outline:2px solid #366c91;outline-offset:4px}
+/* Revision 34: finite seven-term series use the same layout as chapter 03. */
+.frequency-terms.seven-terms{grid-template-columns:repeat(7,minmax(0,1fr))}
+@media(max-width:450px){.frequency-terms.seven-terms{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:640px){.nested-series-equation>math[display=block]{font-size:clamp(14px,3.6vw,20px)}}
+/* Revision 42: spacious sequences with prose between the two forms. */
+.spaced-sequence{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:18px 26px;margin:28px 0;padding:16px 0}
+.spaced-sequence>math{font-size:29px;white-space:nowrap}
+@media(max-width:640px){.spaced-sequence{gap:15px 18px}.spaced-sequence>math{font-size:25px}}
+/* Revision 43: the third-degree minor chord, voiced inside the H-Major octave. */
+.third-degree-chord .sound-block{border:0;background:transparent;padding:18px 0;margin:28px 0}
+.third-degree-chord .chords{justify-content:center}
+.third-degree-chord .chord{min-width:150px;padding:18px 24px;font-family:'Times New Roman','Yu Mincho',serif;font-size:25px;background:white;border:1px solid #e2dce7;border-radius:10px;box-shadow:0 7px 15px #34304312;animation:ratio-float 4.8s ease-in-out infinite}
+.third-degree-chord .chord-ratios{font-size:24px;gap:20px;margin-top:14px}
+.third-degree-chord .chord:hover,.third-degree-chord .chord:focus-visible{animation-play-state:paused;background:#faf6fb;border-color:#a879aa}
+.third-degree-chord .chord.sounding{background:#f3eaf6;border-color:#b786bf;color:#6b346a}
+@media(prefers-reduced-motion:reduce){.third-degree-chord .chord{animation:none}}
+/* Revision 45: make fractional exponents clearly smaller and raised. */
+math.edo-power .edo-exponent{font-size:.7em}
+math.edo-power .edo-exponent mfrac{font-size:1em}
+[data-source-paragraph="56"] tbody tr:first-child td{padding-top:22px;padding-bottom:19px}
+.prose-underline{text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:.22em;text-decoration-skip-ink:auto}
+
+/* Revision 55: inline supplementary note */
+.prose-aside { color: #737783; font-size: .82em; font-weight: 400; }
+
+/* Revision 62: reciprocal example reference */
+.inline-jump { display:inline-flex; align-items:center; justify-content:center; min-width:1.8em; min-height:1.8em; margin-inline:.25em; border:1px solid #cbd3df; border-radius:.4em; color:#335e7d; background:#fff; text-decoration:none; vertical-align:middle; line-height:1; }
+.inline-jump:hover { background:#eef4f8; }
+.inline-jump:focus-visible { outline:2px solid #335e7d; outline-offset:2px; }
+#reciprocal-scale-example { scroll-margin-top:2rem; }
+
+/* English companion: allow longer labels without shrinking the mathematics. */
+html[lang="en"] .prose { font-family: Georgia, "Times New Roman", serif; line-height:1.85; letter-spacing:normal; }
+html[lang="en"] h1 { font-family: Georgia, "Times New Roman", serif; line-height:1.3; }
+html[lang="en"] .toc a { overflow-wrap:break-word; }
+html[lang="en"] .table-wrap th { white-space:normal; }
+html[lang="en"] .chord { white-space:normal; }
+html[lang="en"] .solfege-note { color:#5f6570; font-size:.86em; border-left:2px solid #d4dfe8; padding-left:16px; }
+html[lang="en"] .flow-label { overflow-wrap:break-word; }
